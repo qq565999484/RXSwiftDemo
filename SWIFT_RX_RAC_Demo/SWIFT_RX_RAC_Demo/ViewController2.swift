@@ -38,9 +38,9 @@
 //
 
 import UIKit
-import Moya
-import Alamofire
-import ObjectMapper
+//import Moya
+//import Alamofire
+//import ObjectMapper
 import RxCocoa
 import RxSwift
 
@@ -60,7 +60,7 @@ class ViewController2: UIViewController {
         _ = erroredSequence.subscribe{ event in print(event)}
         
         
-        let deferredSequence: Observable<Int> = Observable.deferred{
+        let _: Observable<Int> = Observable.deferred{
         
             print("creating")
             return Observable.create{     observer in
@@ -107,11 +107,11 @@ class ViewController2: UIViewController {
         let URL = "https://raw.githubusercontent.com/tristanhimmelman/AlamofireObjectMapper/d8bb95982be8a11a2308e779bb9a9707ebe42ede/sample_json"
         
         
-        Alamofire.request(URL).response { (response) in
-            print(response)
-        
-            
-        }
+//        Alamofire.request(URL).response { (response) in
+//            print(response)
+//        
+//            
+//        }
         
         // Do any additional setup after loading the view.
     }
