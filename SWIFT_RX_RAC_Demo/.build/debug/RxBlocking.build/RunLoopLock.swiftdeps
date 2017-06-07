@@ -1,0 +1,227 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "runLoopMode"
+- "runLoopModeRaw"
+- "RunLoopLock"
+provides-nominal:
+- "C10RxBlocking11RunLoopLock"
+provides-member:
+- ["C10RxBlocking11RunLoopLock", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- !private "AtomicIncrement"
+- "AtomicInt"
+- !private "BooleanLiteralType"
+- "CFRunLoop"
+- !private "CFRunLoopGetCurrent"
+- "CFRunLoopMode"
+- !private "CFRunLoopPerformBlock"
+- !private "CFRunLoopRun"
+- !private "CFRunLoopRunInMode"
+- !private "CFRunLoopStop"
+- !private "CFRunLoopWakeUp"
+- !private "CurrentThreadScheduler"
+- !private "Disposables"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "RunLoopLock"
+- !private "RxError"
+- "RxTimeInterval"
+- !private "StringLiteralType"
+- !private "fatalError"
+- "runLoopMode"
+- "runLoopModeRaw"
+depends-member:
+- !private ["Ps9AnyObject", "AtomicIncrement"]
+- !private ["Ps9AnyObject", "CFRunLoopGetCurrent"]
+- !private ["Ps9AnyObject", "CFRunLoopPerformBlock"]
+- !private ["Ps9AnyObject", "CFRunLoopRun"]
+- !private ["Ps9AnyObject", "CFRunLoopRunInMode"]
+- !private ["Ps9AnyObject", "CFRunLoopStop"]
+- !private ["Ps9AnyObject", "CFRunLoopWakeUp"]
+- !private ["Ps9AnyObject", "CurrentThreadScheduler"]
+- !private ["Ps9AnyObject", "Disposables"]
+- !private ["Ps9AnyObject", "RxError"]
+- !private ["Ps9AnyObject", "_calledRun"]
+- !private ["Ps9AnyObject", "_calledStop"]
+- !private ["Ps9AnyObject", "_currentRunLoop"]
+- !private ["Ps9AnyObject", "_timeout"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instance"]
+- !private ["Ps9AnyObject", "isScheduleRequired"]
+- !private ["Ps9AnyObject", "runLoopMode"]
+- !private ["Ps9AnyObject", "runLoopModeRaw"]
+- !private ["Ps9AnyObject", "schedule"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["VSC13CFRunLoopMode", "defaultMode"]
+- ["VSC13CFRunLoopMode", "rawValue"]
+- ["OSC18CFRunLoopRunResult", "finished"]
+- ["OSC18CFRunLoopRunResult", "handledSource"]
+- ["OSC18CFRunLoopRunResult", "stopped"]
+- ["OSC18CFRunLoopRunResult", "timedOut"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["C7RxSwift22CurrentThreadScheduler", "instance"]
+- !private ["C7RxSwift22CurrentThreadScheduler", "isScheduleRequired"]
+- !private ["C7RxSwift22CurrentThreadScheduler", "schedule"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "timeout"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["V7RxSwift11Disposables", "create"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "finished"]
+- ["Ps9Equatable", "handledSource"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "stopped"]
+- ["Ps9Equatable", "timedOut"]
+- !private ["Ps5Error", "timeout"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "finished"]
+- ["Ps8Hashable", "handledSource"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "stopped"]
+- ["Ps8Hashable", "timedOut"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "instance"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "isScheduleRequired"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "schedule"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Ps16RawRepresentable", "defaultMode"]
+- ["Ps16RawRepresentable", "finished"]
+- ["Ps16RawRepresentable", "handledSource"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "stopped"]
+- ["Ps16RawRepresentable", "timedOut"]
+- !private ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["C10RxBlocking11RunLoopLock", "AtomicIncrement"]
+- ["C10RxBlocking11RunLoopLock", "AtomicInt"]
+- ["C10RxBlocking11RunLoopLock", "CFRunLoop"]
+- !private ["C10RxBlocking11RunLoopLock", "CFRunLoopGetCurrent"]
+- !private ["C10RxBlocking11RunLoopLock", "CFRunLoopPerformBlock"]
+- !private ["C10RxBlocking11RunLoopLock", "CFRunLoopRun"]
+- !private ["C10RxBlocking11RunLoopLock", "CFRunLoopRunInMode"]
+- !private ["C10RxBlocking11RunLoopLock", "CFRunLoopStop"]
+- !private ["C10RxBlocking11RunLoopLock", "CFRunLoopWakeUp"]
+- !private ["C10RxBlocking11RunLoopLock", "CurrentThreadScheduler"]
+- !private ["C10RxBlocking11RunLoopLock", "Disposables"]
+- !private ["C10RxBlocking11RunLoopLock", "RxError"]
+- ["C10RxBlocking11RunLoopLock", "RxTimeInterval"]
+- ["C10RxBlocking11RunLoopLock", "_calledRun"]
+- ["C10RxBlocking11RunLoopLock", "_calledStop"]
+- ["C10RxBlocking11RunLoopLock", "_currentRunLoop"]
+- ["C10RxBlocking11RunLoopLock", "_timeout"]
+- ["C10RxBlocking11RunLoopLock", "deinit"]
+- ["C10RxBlocking11RunLoopLock", "dispatch"]
+- !private ["C10RxBlocking11RunLoopLock", "fatalError"]
+- ["C10RxBlocking11RunLoopLock", "init"]
+- ["C10RxBlocking11RunLoopLock", "run"]
+- !private ["C10RxBlocking11RunLoopLock", "runLoopMode"]
+- !private ["C10RxBlocking11RunLoopLock", "runLoopModeRaw"]
+- ["C10RxBlocking11RunLoopLock", "stop"]
+- !private ["O7RxSwift7RxError", "timeout"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "finished"]
+- ["Ps9_Hashable", "handledSource"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "stopped"]
+- ["Ps9_Hashable", "timedOut"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps20_SwiftNewtypeWrapper", "defaultMode"]
+- ["Ps20_SwiftNewtypeWrapper", "rawValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "VSC13CFRunLoopMode"
+- "OSC18CFRunLoopRunResult"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "C7RxSwift22CurrentThreadScheduler"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "V7RxSwift11Disposables"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "P7RxSwift22ImmediateSchedulerType"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps16RawRepresentable"
+- !private "P7RxSwift18ReactiveCompatible"
+- "C10RxBlocking11RunLoopLock"
+- !private "O7RxSwift7RxError"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxSwift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxCocoaRuntime.build/module.modulemap"
+interface-hash: "1fb17d24bcdb5a26973e401c690aec8a"

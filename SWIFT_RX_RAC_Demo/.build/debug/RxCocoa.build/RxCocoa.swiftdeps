@@ -1,0 +1,231 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxCocoaError"
+- "bindingErrorToInterface"
+- "rxAbstractMethod"
+- "rxFatalError"
+- "rxFatalErrorInDebug"
+- "castOptionalOrFatalError"
+- "castOrThrow"
+- "castOptionalOrThrow"
+- "castOrFatalError"
+- "castOrFatalError"
+- "dataSourceNotSet"
+- "delegateNotSet"
+- "rxFatalError"
+provides-nominal:
+- "O7RxCocoa12RxCocoaError"
+provides-member:
+- ["O7RxCocoa12RxCocoaError", ""]
+- ["O7RxCocoa12RxCocoaError", "debugDescription"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AnyObject"
+- "CastingPrecedence"
+- "CustomDebugStringConvertible"
+- !private "NSNull"
+- "Never"
+- "RxCocoaError"
+- "StaticString"
+- "String"
+- "StringLiteralType"
+- "Swift"
+- "UInt"
+- !private "UnicodeScalarType"
+- "bindingErrorToInterface"
+- "castOptionalOrFatalError"
+- "castOptionalOrThrow"
+- "castOrFatalError"
+- "castOrThrow"
+- "dataSourceNotSet"
+- "delegateNotSet"
+- !private "fatalError"
+- !private "print"
+- "rxAbstractMethod"
+- "rxFatalError"
+- "rxFatalErrorInDebug"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isEqual"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo8CAAction", "init"]
+- !private ["PSo8CAAction", "isEqual"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEqual"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "_code"]
+- ["Ps28CustomDebugStringConvertible", "_domain"]
+- ["Ps28CustomDebugStringConvertible", "_getEmbeddedNSError"]
+- ["Ps28CustomDebugStringConvertible", "_userInfo"]
+- ["Ps28CustomDebugStringConvertible", "castingError"]
+- ["Ps28CustomDebugStringConvertible", "debugDescription"]
+- ["Ps28CustomDebugStringConvertible", "errorDuringSwizzling"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "invalidObjectOnKeyPath"]
+- ["Ps28CustomDebugStringConvertible", "invalidOperation"]
+- ["Ps28CustomDebugStringConvertible", "invalidPropertyName"]
+- !private ["Ps28CustomDebugStringConvertible", "isEqual"]
+- ["Ps28CustomDebugStringConvertible", "itemsNotYetBound"]
+- ["Ps28CustomDebugStringConvertible", "unknown"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEqual"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isEqual"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "castingError"]
+- ["Ps5Error", "debugDescription"]
+- ["Ps5Error", "errorDuringSwizzling"]
+- ["Ps5Error", "invalidObjectOnKeyPath"]
+- ["Ps5Error", "invalidOperation"]
+- ["Ps5Error", "invalidPropertyName"]
+- ["Ps5Error", "itemsNotYetBound"]
+- ["Ps5Error", "unknown"]
+- ["Ps5Error", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isEqual"]
+- !private ["P7RxCocoa16KVORepresentable", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEqual"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEqual"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo6NSNull", "init"]
+- !private ["CSo6NSNull", "isEqual"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isEqual"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEqual"]
+- ["PSo19NSPasteboardReading", "init"]
+- ["PSo19NSPasteboardWriting", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEqual"]
+- ["CSo8NSString", "init"]
+- ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift18ReactiveCompatible", "isEqual"]
+- ["O7RxCocoa12RxCocoaError", "AnyObject"]
+- ["O7RxCocoa12RxCocoaError", "String"]
+- ["O7RxCocoa12RxCocoaError", "_code"]
+- ["O7RxCocoa12RxCocoaError", "_domain"]
+- ["O7RxCocoa12RxCocoaError", "_getEmbeddedNSError"]
+- ["O7RxCocoa12RxCocoaError", "_userInfo"]
+- ["O7RxCocoa12RxCocoaError", "castingError"]
+- ["O7RxCocoa12RxCocoaError", "debugDescription"]
+- ["O7RxCocoa12RxCocoaError", "deinit"]
+- ["O7RxCocoa12RxCocoaError", "errorDuringSwizzling"]
+- ["O7RxCocoa12RxCocoaError", "invalidObjectOnKeyPath"]
+- ["O7RxCocoa12RxCocoaError", "invalidOperation"]
+- ["O7RxCocoa12RxCocoaError", "invalidPropertyName"]
+- ["O7RxCocoa12RxCocoaError", "itemsNotYetBound"]
+- ["O7RxCocoa12RxCocoaError", "unknown"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isEqual"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "PSo8CAAction"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "P7RxCocoa16KVORepresentable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- !private "CSo6NSNull"
+- !private "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo19NSPasteboardReading"
+- "PSo19NSPasteboardWriting"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "P7RxSwift18ReactiveCompatible"
+- "O7RxCocoa12RxCocoaError"
+- !private "Vs12StaticString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxSwift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RX.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXObjCRuntime.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/RxCocoaRuntime.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXKVOObserver.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXDelegateProxy.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxCocoaRuntime.build/module.modulemap"
+interface-hash: "585a5741c09a589590db7a2df8c61180"

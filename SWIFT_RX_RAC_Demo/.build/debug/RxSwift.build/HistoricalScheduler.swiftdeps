@@ -1,0 +1,105 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HistoricalScheduler"
+provides-nominal:
+- "C7RxSwift19HistoricalScheduler"
+provides-member:
+- ["C7RxSwift19HistoricalScheduler", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Date"
+- "HistoricalScheduler"
+- "HistoricalSchedulerTimeConverter"
+- "RxTime"
+- !private "StringLiteralType"
+- "VirtualTimeScheduler"
+depends-member:
+- !private ["Ps9AnyObject", "Date"]
+- !private ["Ps9AnyObject", "HistoricalSchedulerTimeConverter"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Date"]
+- !private ["Ps28CustomDebugStringConvertible", "HistoricalSchedulerTimeConverter"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["V10Foundation4Date", "init"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "init"]
+- !private ["C7RxSwift19HistoricalScheduler", "Date"]
+- !private ["C7RxSwift19HistoricalScheduler", "HistoricalSchedulerTimeConverter"]
+- ["C7RxSwift19HistoricalScheduler", "RxTime"]
+- ["C7RxSwift19HistoricalScheduler", "deinit"]
+- ["C7RxSwift19HistoricalScheduler", "init"]
+- ["V7RxSwift32HistoricalSchedulerTimeConverter", "deinit"]
+- !private ["V7RxSwift32HistoricalSchedulerTimeConverter", "init"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "Date"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "HistoricalSchedulerTimeConverter"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "init"]
+- ["P7RxSwift22ImmediateSchedulerType", ""]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P7RxSwift13SchedulerType", "Date"]
+- !private ["P7RxSwift13SchedulerType", "HistoricalSchedulerTimeConverter"]
+- !private ["P7RxSwift13SchedulerType", "init"]
+- ["P7RxSwift13SchedulerType", ""]
+- !private ["Vs12StaticString", "init"]
+- !private ["P7RxSwift24VirtualTimeConverterType", "init"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "Date"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "HistoricalSchedulerTimeConverter"]
+- ["C7RxSwift20VirtualTimeScheduler", "RxTime"]
+- ["C7RxSwift20VirtualTimeScheduler", "init"]
+- ["C7RxSwift20VirtualTimeScheduler", ""]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "V10Foundation4Date"
+- !private "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- "C7RxSwift19HistoricalScheduler"
+- "V7RxSwift32HistoricalSchedulerTimeConverter"
+- "P7RxSwift22ImmediateSchedulerType"
+- !private "P10Foundation20ReferenceConvertible"
+- "P7RxSwift13SchedulerType"
+- !private "Vs12StaticString"
+- !private "P7RxSwift24VirtualTimeConverterType"
+- "C7RxSwift20VirtualTimeScheduler"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxCocoaRuntime.build/module.modulemap"
+interface-hash: "f3ad5cd16f68961b0e0b700143fda4da"

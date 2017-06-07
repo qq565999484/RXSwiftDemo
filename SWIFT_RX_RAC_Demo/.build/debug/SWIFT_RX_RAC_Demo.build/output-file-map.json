@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/SWIFT_RX_RAC_Demo.build/master.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/SWIFT_RX_RAC_Demo/AppDelegate.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/SWIFT_RX_RAC_Demo.build/AppDelegate.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/SWIFT_RX_RAC_Demo.build/AppDelegate.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/SWIFT_RX_RAC_Demo.build/AppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/SWIFT_RX_RAC_Demo.build/AppDelegate.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/SWIFT_RX_RAC_Demo/ViewController.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/SWIFT_RX_RAC_Demo.build/ViewController.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/SWIFT_RX_RAC_Demo.build/ViewController.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/SWIFT_RX_RAC_Demo.build/ViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/SWIFT_RX_RAC_Demo.build/ViewController.swiftdeps"
+  }
+}

@@ -1,0 +1,120 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["V7RxSwift8Reactive", ""]
+- ["V7RxSwift8Reactive", "notification"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- !private "Disposables"
+- "Notification"
+- "NotificationCenter"
+- "Observable"
+- "Reactive"
+depends-member:
+- !private ["Ps9AnyObject", "addObserver"]
+- !private ["Ps9AnyObject", "create"]
+- !private ["Ps9AnyObject", "removeObserver"]
+- !private ["V7RxSwift11AnyObserver", "on"]
+- !private ["Ps7CVarArg", "addObserver"]
+- !private ["Ps7CVarArg", "removeObserver"]
+- ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "next"]
+- !private ["Ps28CustomDebugStringConvertible", "removeObserver"]
+- ["Ps17CustomReflectable", "Name"]
+- ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "addObserver"]
+- !private ["Ps23CustomStringConvertible", "removeObserver"]
+- !private ["V7RxSwift11Disposables", "create"]
+- ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "addObserver"]
+- !private ["Ps9Equatable", "removeObserver"]
+- !private ["O7RxSwift5Event", "next"]
+- !private ["P7RxSwift16EventConvertible", "next"]
+- ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "addObserver"]
+- !private ["Ps8Hashable", "removeObserver"]
+- !private ["CSo8NSObject", "addObserver"]
+- !private ["CSo8NSObject", "removeObserver"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
+- !private ["PSo16NSObjectProtocol", "removeObserver"]
+- ["V10Foundation12Notification", "Name"]
+- !private ["CSo18NotificationCenter", "addObserver"]
+- !private ["CSo18NotificationCenter", "removeObserver"]
+- !private ["C7RxSwift10Observable", "create"]
+- !private ["P7RxSwift25ObservableConvertibleType", "create"]
+- !private ["P7RxSwift14ObservableType", "create"]
+- !private ["P7RxSwift12ObserverType", "on"]
+- ["V7RxSwift8Reactive", "AnyObject"]
+- !private ["V7RxSwift8Reactive", "Disposables"]
+- ["V7RxSwift8Reactive", "Notification"]
+- ["V7RxSwift8Reactive", "NotificationCenter"]
+- ["V7RxSwift8Reactive", "Observable"]
+- !private ["V7RxSwift8Reactive", "base"]
+- ["V7RxSwift8Reactive", "notification"]
+- !private ["P7RxSwift18ReactiveCompatible", "addObserver"]
+- !private ["P7RxSwift18ReactiveCompatible", "removeObserver"]
+- ["P10Foundation20ReferenceConvertible", "Name"]
+- ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "addObserver"]
+- !private ["Ps9_Hashable", "removeObserver"]
+- ["Ps21_ObjectiveCBridgeable", "Name"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "V7RxSwift11AnyObserver"
+- !private "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V7RxSwift11Disposables"
+- "Ps9Equatable"
+- !private "O7RxSwift5Event"
+- !private "P7RxSwift16EventConvertible"
+- "Ps8Hashable"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- "V10Foundation12Notification"
+- !private "CSo18NotificationCenter"
+- !private "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- !private "P7RxSwift12ObserverType"
+- "V7RxSwift8Reactive"
+- !private "P7RxSwift18ReactiveCompatible"
+- "P10Foundation20ReferenceConvertible"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxSwift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RX.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXObjCRuntime.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/RxCocoaRuntime.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXKVOObserver.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXDelegateProxy.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxCocoaRuntime.build/module.modulemap"
+interface-hash: "30b2b98b9485879e2d1f5dc41fc0592a"

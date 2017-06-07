@@ -1,0 +1,613 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxTextFieldDelegateProxy"
+provides-nominal:
+- "C7RxCocoa24RxTextFieldDelegateProxy"
+provides-member:
+- ["C7RxCocoa24RxTextFieldDelegateProxy", ""]
+- ["CSo11NSTextField", ""]
+- ["V7RxSwift8Reactive", ""]
+- ["CSo11NSTextField", "createRxDelegateProxy"]
+- ["V7RxSwift8Reactive", "delegate"]
+- ["V7RxSwift8Reactive", "text"]
+provides-dynamic-lookup:
+- "controlTextDidChange"
+- "createProxyForObject"
+- "createRxDelegateProxy"
+- "currentDelegateFor"
+- "setCurrentDelegate"
+- "textField"
+depends-top-level:
+- !private "??"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "ControlProperty"
+- "DelegateProxy"
+- "DelegateProxyType"
+- "NSTextField"
+- "NSTextFieldDelegate"
+- "Notification"
+- !private "Observable"
+- "PublishSubject"
+- "Reactive"
+- "RxTextFieldDelegateProxy"
+- "String"
+- !private "StringLiteralType"
+- !private "UIBindingObserver"
+- !private "castOptionalOrFatalError"
+- !private "castOrFatalError"
+depends-member:
+- ["Ps9AnyObject", "PublishSubject"]
+- !private ["Ps9AnyObject", "RxTextFieldDelegateProxy"]
+- !private ["Ps9AnyObject", "asObserver"]
+- ["Ps9AnyObject", "assignProxy"]
+- ["Ps9AnyObject", "assignedProxyFor"]
+- !private ["Ps9AnyObject", "castOptionalOrFatalError"]
+- !private ["Ps9AnyObject", "castOrFatalError"]
+- ["Ps9AnyObject", "control"]
+- ["Ps9AnyObject", "createProxyForObject"]
+- !private ["Ps9AnyObject", "createRxDelegateProxy"]
+- ["Ps9AnyObject", "currentDelegateFor"]
+- !private ["Ps9AnyObject", "deferred"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "forwardToDelegate"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "on"]
+- !private ["Ps9AnyObject", "proxyForObject"]
+- ["Ps9AnyObject", "setCurrentDelegate"]
+- ["Ps9AnyObject", "setForwardToDelegate"]
+- !private ["Ps9AnyObject", "startWith"]
+- !private ["Ps9AnyObject", "stringValue"]
+- !private ["Ps9AnyObject", "takeUntil"]
+- ["Ps9AnyObject", "textField"]
+- !private ["Ps9AnyObject", "textSubject"]
+- ["Ps9AnyObject", ""]
+- ["Ps7CVarArg", "PublishSubject"]
+- !private ["Ps7CVarArg", "RxTextFieldDelegateProxy"]
+- ["Ps7CVarArg", "assignProxy"]
+- ["Ps7CVarArg", "assignedProxyFor"]
+- !private ["Ps7CVarArg", "castOptionalOrFatalError"]
+- !private ["Ps7CVarArg", "castOrFatalError"]
+- ["Ps7CVarArg", "control"]
+- ["Ps7CVarArg", "createProxyForObject"]
+- !private ["Ps7CVarArg", "createRxDelegateProxy"]
+- ["Ps7CVarArg", "currentDelegateFor"]
+- !private ["Ps7CVarArg", "delegate"]
+- ["Ps7CVarArg", "forwardToDelegate"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "proxyForObject"]
+- ["Ps7CVarArg", "setCurrentDelegate"]
+- ["Ps7CVarArg", "setForwardToDelegate"]
+- !private ["Ps7CVarArg", "stringValue"]
+- ["Ps7CVarArg", "textField"]
+- !private ["Ps7CVarArg", "textSubject"]
+- ["Ps7CVarArg", ""]
+- ["P7RxSwift10Cancelable", "init"]
+- !private ["P7RxSwift10Cancelable", "on"]
+- !private ["P7RxSwift10Cancelable", "startWith"]
+- !private ["Ps10Comparable", "init"]
+- !private ["V7RxCocoa15ControlProperty", "init"]
+- !private ["P7RxCocoa19ControlPropertyType", "init"]
+- ["Ps28CustomDebugStringConvertible", "PublishSubject"]
+- !private ["Ps28CustomDebugStringConvertible", "RxTextFieldDelegateProxy"]
+- ["Ps28CustomDebugStringConvertible", "assignProxy"]
+- ["Ps28CustomDebugStringConvertible", "assignedProxyFor"]
+- !private ["Ps28CustomDebugStringConvertible", "castOptionalOrFatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "castOrFatalError"]
+- ["Ps28CustomDebugStringConvertible", "control"]
+- ["Ps28CustomDebugStringConvertible", "createProxyForObject"]
+- !private ["Ps28CustomDebugStringConvertible", "createRxDelegateProxy"]
+- ["Ps28CustomDebugStringConvertible", "currentDelegateFor"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "forwardToDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "next"]
+- !private ["Ps28CustomDebugStringConvertible", "object"]
+- !private ["Ps28CustomDebugStringConvertible", "proxyForObject"]
+- ["Ps28CustomDebugStringConvertible", "setCurrentDelegate"]
+- ["Ps28CustomDebugStringConvertible", "setForwardToDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "stringValue"]
+- ["Ps28CustomDebugStringConvertible", "textField"]
+- !private ["Ps28CustomDebugStringConvertible", "textSubject"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "object"]
+- ["Ps23CustomStringConvertible", "PublishSubject"]
+- !private ["Ps23CustomStringConvertible", "RxTextFieldDelegateProxy"]
+- ["Ps23CustomStringConvertible", "assignProxy"]
+- ["Ps23CustomStringConvertible", "assignedProxyFor"]
+- !private ["Ps23CustomStringConvertible", "castOptionalOrFatalError"]
+- !private ["Ps23CustomStringConvertible", "castOrFatalError"]
+- ["Ps23CustomStringConvertible", "control"]
+- ["Ps23CustomStringConvertible", "createProxyForObject"]
+- !private ["Ps23CustomStringConvertible", "createRxDelegateProxy"]
+- ["Ps23CustomStringConvertible", "currentDelegateFor"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "forwardToDelegate"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "object"]
+- !private ["Ps23CustomStringConvertible", "proxyForObject"]
+- ["Ps23CustomStringConvertible", "setCurrentDelegate"]
+- ["Ps23CustomStringConvertible", "setForwardToDelegate"]
+- !private ["Ps23CustomStringConvertible", "stringValue"]
+- ["Ps23CustomStringConvertible", "textField"]
+- !private ["Ps23CustomStringConvertible", "textSubject"]
+- ["Ps23CustomStringConvertible", ""]
+- ["C7RxCocoa13DelegateProxy", "AnyObject"]
+- ["C7RxCocoa13DelegateProxy", "NSTextField"]
+- ["C7RxCocoa13DelegateProxy", "Notification"]
+- ["C7RxCocoa13DelegateProxy", "PublishSubject"]
+- ["C7RxCocoa13DelegateProxy", "String"]
+- ["C7RxCocoa13DelegateProxy", "assignProxy"]
+- ["C7RxCocoa13DelegateProxy", "assignedProxyFor"]
+- !private ["C7RxCocoa13DelegateProxy", "castOptionalOrFatalError"]
+- !private ["C7RxCocoa13DelegateProxy", "castOrFatalError"]
+- ["C7RxCocoa13DelegateProxy", "control"]
+- ["C7RxCocoa13DelegateProxy", "controlTextDidChange"]
+- ["C7RxCocoa13DelegateProxy", "createProxyForObject"]
+- ["C7RxCocoa13DelegateProxy", "currentDelegateFor"]
+- ["C7RxCocoa13DelegateProxy", "forwardToDelegate"]
+- ["C7RxCocoa13DelegateProxy", "init"]
+- !private ["C7RxCocoa13DelegateProxy", "proxyForObject"]
+- ["C7RxCocoa13DelegateProxy", "setCurrentDelegate"]
+- ["C7RxCocoa13DelegateProxy", "setForwardToDelegate"]
+- ["C7RxCocoa13DelegateProxy", "textField"]
+- ["C7RxCocoa13DelegateProxy", "textSubject"]
+- ["C7RxCocoa13DelegateProxy", ""]
+- ["P7RxCocoa17DelegateProxyType", "PublishSubject"]
+- ["P7RxCocoa17DelegateProxyType", "assignProxy"]
+- ["P7RxCocoa17DelegateProxyType", "assignedProxyFor"]
+- !private ["P7RxCocoa17DelegateProxyType", "castOptionalOrFatalError"]
+- !private ["P7RxCocoa17DelegateProxyType", "castOrFatalError"]
+- ["P7RxCocoa17DelegateProxyType", "control"]
+- ["P7RxCocoa17DelegateProxyType", "createProxyForObject"]
+- ["P7RxCocoa17DelegateProxyType", "currentDelegateFor"]
+- ["P7RxCocoa17DelegateProxyType", "forwardToDelegate"]
+- !private ["P7RxCocoa17DelegateProxyType", "init"]
+- !private ["P7RxCocoa17DelegateProxyType", "proxyForObject"]
+- ["P7RxCocoa17DelegateProxyType", "setCurrentDelegate"]
+- ["P7RxCocoa17DelegateProxyType", "setForwardToDelegate"]
+- ["P7RxCocoa17DelegateProxyType", "textField"]
+- !private ["P7RxCocoa17DelegateProxyType", "textSubject"]
+- ["P7RxCocoa17DelegateProxyType", ""]
+- ["P7RxSwift10Disposable", "init"]
+- !private ["P7RxSwift10Disposable", "on"]
+- !private ["P7RxSwift10Disposable", "startWith"]
+- ["Ps9Equatable", "PublishSubject"]
+- !private ["Ps9Equatable", "RxTextFieldDelegateProxy"]
+- ["Ps9Equatable", "assignProxy"]
+- ["Ps9Equatable", "assignedProxyFor"]
+- !private ["Ps9Equatable", "castOptionalOrFatalError"]
+- !private ["Ps9Equatable", "castOrFatalError"]
+- ["Ps9Equatable", "control"]
+- ["Ps9Equatable", "createProxyForObject"]
+- !private ["Ps9Equatable", "createRxDelegateProxy"]
+- ["Ps9Equatable", "currentDelegateFor"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "forwardToDelegate"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "object"]
+- !private ["Ps9Equatable", "proxyForObject"]
+- ["Ps9Equatable", "setCurrentDelegate"]
+- ["Ps9Equatable", "setForwardToDelegate"]
+- !private ["Ps9Equatable", "stringValue"]
+- ["Ps9Equatable", "textField"]
+- !private ["Ps9Equatable", "textSubject"]
+- ["Ps9Equatable", ""]
+- !private ["O7RxSwift5Event", "next"]
+- !private ["P7RxSwift16EventConvertible", "next"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "PublishSubject"]
+- !private ["Ps8Hashable", "RxTextFieldDelegateProxy"]
+- ["Ps8Hashable", "assignProxy"]
+- ["Ps8Hashable", "assignedProxyFor"]
+- !private ["Ps8Hashable", "castOptionalOrFatalError"]
+- !private ["Ps8Hashable", "castOrFatalError"]
+- ["Ps8Hashable", "control"]
+- ["Ps8Hashable", "createProxyForObject"]
+- !private ["Ps8Hashable", "createRxDelegateProxy"]
+- ["Ps8Hashable", "currentDelegateFor"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "forwardToDelegate"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "object"]
+- !private ["Ps8Hashable", "proxyForObject"]
+- ["Ps8Hashable", "setCurrentDelegate"]
+- ["Ps8Hashable", "setForwardToDelegate"]
+- !private ["Ps8Hashable", "stringValue"]
+- ["Ps8Hashable", "textField"]
+- !private ["Ps8Hashable", "textSubject"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo15NSAccessibility", "RxTextFieldDelegateProxy"]
+- !private ["PSo15NSAccessibility", "createRxDelegateProxy"]
+- !private ["PSo15NSAccessibility", "delegate"]
+- !private ["PSo15NSAccessibility", "stringValue"]
+- !private ["PSo30NSAccessibilityElementProtocol", "RxTextFieldDelegateProxy"]
+- !private ["PSo30NSAccessibilityElementProtocol", "createRxDelegateProxy"]
+- !private ["PSo30NSAccessibilityElementProtocol", "delegate"]
+- !private ["PSo30NSAccessibilityElementProtocol", "stringValue"]
+- !private ["PSo34NSAccessibilityNavigableStaticText", "RxTextFieldDelegateProxy"]
+- !private ["PSo34NSAccessibilityNavigableStaticText", "createRxDelegateProxy"]
+- !private ["PSo34NSAccessibilityNavigableStaticText", "delegate"]
+- !private ["PSo34NSAccessibilityNavigableStaticText", "stringValue"]
+- !private ["PSo25NSAccessibilityStaticText", "RxTextFieldDelegateProxy"]
+- !private ["PSo25NSAccessibilityStaticText", "createRxDelegateProxy"]
+- !private ["PSo25NSAccessibilityStaticText", "delegate"]
+- !private ["PSo25NSAccessibilityStaticText", "stringValue"]
+- !private ["PSo29NSAnimatablePropertyContainer", "RxTextFieldDelegateProxy"]
+- !private ["PSo29NSAnimatablePropertyContainer", "createRxDelegateProxy"]
+- !private ["PSo29NSAnimatablePropertyContainer", "delegate"]
+- !private ["PSo29NSAnimatablePropertyContainer", "stringValue"]
+- !private ["PSo25NSAppearanceCustomization", "RxTextFieldDelegateProxy"]
+- !private ["PSo25NSAppearanceCustomization", "createRxDelegateProxy"]
+- !private ["PSo25NSAppearanceCustomization", "delegate"]
+- !private ["PSo25NSAppearanceCustomization", "stringValue"]
+- !private ["PSo8NSCoding", "RxTextFieldDelegateProxy"]
+- !private ["PSo8NSCoding", "createRxDelegateProxy"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "stringValue"]
+- ["CSo9NSControl", "RxTextFieldDelegateProxy"]
+- ["CSo9NSControl", "createRxDelegateProxy"]
+- !private ["CSo9NSControl", "delegate"]
+- !private ["CSo9NSControl", "stringValue"]
+- ["PSo28NSControlTextEditingDelegate", "PublishSubject"]
+- ["PSo28NSControlTextEditingDelegate", "assignProxy"]
+- ["PSo28NSControlTextEditingDelegate", "assignedProxyFor"]
+- !private ["PSo28NSControlTextEditingDelegate", "castOptionalOrFatalError"]
+- !private ["PSo28NSControlTextEditingDelegate", "castOrFatalError"]
+- ["PSo28NSControlTextEditingDelegate", "control"]
+- ["PSo28NSControlTextEditingDelegate", "createProxyForObject"]
+- ["PSo28NSControlTextEditingDelegate", "currentDelegateFor"]
+- ["PSo28NSControlTextEditingDelegate", "forwardToDelegate"]
+- !private ["PSo28NSControlTextEditingDelegate", "init"]
+- !private ["PSo28NSControlTextEditingDelegate", "proxyForObject"]
+- ["PSo28NSControlTextEditingDelegate", "setCurrentDelegate"]
+- ["PSo28NSControlTextEditingDelegate", "setForwardToDelegate"]
+- ["PSo28NSControlTextEditingDelegate", "textField"]
+- !private ["PSo28NSControlTextEditingDelegate", "textSubject"]
+- ["PSo28NSControlTextEditingDelegate", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo21NSDraggingDestination", "RxTextFieldDelegateProxy"]
+- !private ["PSo21NSDraggingDestination", "createRxDelegateProxy"]
+- !private ["PSo21NSDraggingDestination", "delegate"]
+- !private ["PSo21NSDraggingDestination", "stringValue"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "NSTextField"]
+- ["CSo8NSObject", "Notification"]
+- ["CSo8NSObject", "PublishSubject"]
+- ["CSo8NSObject", "RxTextFieldDelegateProxy"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "assignProxy"]
+- ["CSo8NSObject", "assignedProxyFor"]
+- !private ["CSo8NSObject", "castOptionalOrFatalError"]
+- !private ["CSo8NSObject", "castOrFatalError"]
+- ["CSo8NSObject", "control"]
+- ["CSo8NSObject", "controlTextDidChange"]
+- ["CSo8NSObject", "createProxyForObject"]
+- ["CSo8NSObject", "createRxDelegateProxy"]
+- ["CSo8NSObject", "currentDelegateFor"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "forwardToDelegate"]
+- !private ["CSo8NSObject", "proxyForObject"]
+- ["CSo8NSObject", "setCurrentDelegate"]
+- ["CSo8NSObject", "setForwardToDelegate"]
+- !private ["CSo8NSObject", "stringValue"]
+- ["CSo8NSObject", "textField"]
+- ["CSo8NSObject", "textSubject"]
+- ["PSo16NSObjectProtocol", "PublishSubject"]
+- !private ["PSo16NSObjectProtocol", "RxTextFieldDelegateProxy"]
+- ["PSo16NSObjectProtocol", "assignProxy"]
+- ["PSo16NSObjectProtocol", "assignedProxyFor"]
+- !private ["PSo16NSObjectProtocol", "castOptionalOrFatalError"]
+- !private ["PSo16NSObjectProtocol", "castOrFatalError"]
+- ["PSo16NSObjectProtocol", "control"]
+- ["PSo16NSObjectProtocol", "createProxyForObject"]
+- !private ["PSo16NSObjectProtocol", "createRxDelegateProxy"]
+- ["PSo16NSObjectProtocol", "currentDelegateFor"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "forwardToDelegate"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "proxyForObject"]
+- ["PSo16NSObjectProtocol", "setCurrentDelegate"]
+- ["PSo16NSObjectProtocol", "setForwardToDelegate"]
+- !private ["PSo16NSObjectProtocol", "stringValue"]
+- ["PSo16NSObjectProtocol", "textField"]
+- !private ["PSo16NSObjectProtocol", "textSubject"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardWriting", "init"]
+- ["CSo11NSResponder", "RxTextFieldDelegateProxy"]
+- ["CSo11NSResponder", "createRxDelegateProxy"]
+- !private ["CSo11NSResponder", "delegate"]
+- !private ["CSo11NSResponder", "stringValue"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["CSo11NSTextField", "RxTextFieldDelegateProxy"]
+- ["CSo11NSTextField", "createRxDelegateProxy"]
+- !private ["CSo11NSTextField", "delegate"]
+- !private ["CSo11NSTextField", "stringValue"]
+- ["PSo19NSTextFieldDelegate", "PublishSubject"]
+- ["PSo19NSTextFieldDelegate", "assignProxy"]
+- ["PSo19NSTextFieldDelegate", "assignedProxyFor"]
+- !private ["PSo19NSTextFieldDelegate", "castOptionalOrFatalError"]
+- !private ["PSo19NSTextFieldDelegate", "castOrFatalError"]
+- ["PSo19NSTextFieldDelegate", "control"]
+- ["PSo19NSTextFieldDelegate", "createProxyForObject"]
+- ["PSo19NSTextFieldDelegate", "currentDelegateFor"]
+- ["PSo19NSTextFieldDelegate", "forwardToDelegate"]
+- !private ["PSo19NSTextFieldDelegate", "init"]
+- !private ["PSo19NSTextFieldDelegate", "proxyForObject"]
+- ["PSo19NSTextFieldDelegate", "setCurrentDelegate"]
+- ["PSo19NSTextFieldDelegate", "setForwardToDelegate"]
+- ["PSo19NSTextFieldDelegate", "textField"]
+- !private ["PSo19NSTextFieldDelegate", "textSubject"]
+- ["PSo19NSTextFieldDelegate", ""]
+- !private ["PSo18NSTouchBarProvider", "RxTextFieldDelegateProxy"]
+- !private ["PSo18NSTouchBarProvider", "createRxDelegateProxy"]
+- !private ["PSo18NSTouchBarProvider", "delegate"]
+- !private ["PSo18NSTouchBarProvider", "stringValue"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "RxTextFieldDelegateProxy"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "createRxDelegateProxy"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "delegate"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "stringValue"]
+- !private ["PSo26NSUserInterfaceValidations", "RxTextFieldDelegateProxy"]
+- !private ["PSo26NSUserInterfaceValidations", "createRxDelegateProxy"]
+- !private ["PSo26NSUserInterfaceValidations", "delegate"]
+- !private ["PSo26NSUserInterfaceValidations", "stringValue"]
+- ["CSo6NSView", "RxTextFieldDelegateProxy"]
+- ["CSo6NSView", "createRxDelegateProxy"]
+- !private ["CSo6NSView", "delegate"]
+- !private ["CSo6NSView", "stringValue"]
+- !private ["V10Foundation12Notification", "object"]
+- !private ["C7RxSwift10Observable", "deferred"]
+- ["C7RxSwift10Observable", "init"]
+- !private ["C7RxSwift10Observable", "on"]
+- !private ["C7RxSwift10Observable", "startWith"]
+- !private ["C7RxSwift10Observable", "takeUntil"]
+- !private ["P7RxSwift25ObservableConvertibleType", "deferred"]
+- ["P7RxSwift25ObservableConvertibleType", "init"]
+- !private ["P7RxSwift25ObservableConvertibleType", "on"]
+- !private ["P7RxSwift25ObservableConvertibleType", "startWith"]
+- !private ["P7RxSwift25ObservableConvertibleType", "takeUntil"]
+- !private ["P7RxSwift14ObservableType", "deferred"]
+- ["P7RxSwift14ObservableType", "init"]
+- !private ["P7RxSwift14ObservableType", "on"]
+- !private ["P7RxSwift14ObservableType", "startWith"]
+- !private ["P7RxSwift14ObservableType", "takeUntil"]
+- !private ["P7RxSwift12ObserverType", "asObserver"]
+- ["P7RxSwift12ObserverType", "init"]
+- !private ["P7RxSwift12ObserverType", "on"]
+- !private ["P7RxSwift12ObserverType", "startWith"]
+- ["C7RxSwift14PublishSubject", "init"]
+- !private ["C7RxSwift14PublishSubject", "on"]
+- !private ["C7RxSwift14PublishSubject", "startWith"]
+- ["V7RxSwift8Reactive", "ControlProperty"]
+- ["V7RxSwift8Reactive", "DelegateProxy"]
+- ["V7RxSwift8Reactive", "NSTextField"]
+- !private ["V7RxSwift8Reactive", "Observable"]
+- !private ["V7RxSwift8Reactive", "RxTextFieldDelegateProxy"]
+- ["V7RxSwift8Reactive", "String"]
+- !private ["V7RxSwift8Reactive", "UIBindingObserver"]
+- !private ["V7RxSwift8Reactive", "base"]
+- !private ["V7RxSwift8Reactive", "deallocated"]
+- ["V7RxSwift8Reactive", "delegate"]
+- ["V7RxSwift8Reactive", "text"]
+- ["P7RxSwift18ReactiveCompatible", "PublishSubject"]
+- !private ["P7RxSwift18ReactiveCompatible", "RxTextFieldDelegateProxy"]
+- ["P7RxSwift18ReactiveCompatible", "assignProxy"]
+- ["P7RxSwift18ReactiveCompatible", "assignedProxyFor"]
+- !private ["P7RxSwift18ReactiveCompatible", "castOptionalOrFatalError"]
+- !private ["P7RxSwift18ReactiveCompatible", "castOrFatalError"]
+- ["P7RxSwift18ReactiveCompatible", "control"]
+- ["P7RxSwift18ReactiveCompatible", "createProxyForObject"]
+- !private ["P7RxSwift18ReactiveCompatible", "createRxDelegateProxy"]
+- ["P7RxSwift18ReactiveCompatible", "currentDelegateFor"]
+- !private ["P7RxSwift18ReactiveCompatible", "delegate"]
+- ["P7RxSwift18ReactiveCompatible", "forwardToDelegate"]
+- !private ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift18ReactiveCompatible", "proxyForObject"]
+- ["P7RxSwift18ReactiveCompatible", "setCurrentDelegate"]
+- ["P7RxSwift18ReactiveCompatible", "setForwardToDelegate"]
+- !private ["P7RxSwift18ReactiveCompatible", "stringValue"]
+- ["P7RxSwift18ReactiveCompatible", "textField"]
+- !private ["P7RxSwift18ReactiveCompatible", "textSubject"]
+- ["P7RxSwift18ReactiveCompatible", ""]
+- !private ["P10Foundation20ReferenceConvertible", "object"]
+- ["C7RxCocoa24RxTextFieldDelegateProxy", "AnyObject"]
+- ["C7RxCocoa24RxTextFieldDelegateProxy", "NSTextField"]
+- ["C7RxCocoa24RxTextFieldDelegateProxy", "Notification"]
+- ["C7RxCocoa24RxTextFieldDelegateProxy", "PublishSubject"]
+- ["C7RxCocoa24RxTextFieldDelegateProxy", "String"]
+- ["C7RxCocoa24RxTextFieldDelegateProxy", "assignProxy"]
+- ["C7RxCocoa24RxTextFieldDelegateProxy", "assignedProxyFor"]
+- !private ["C7RxCocoa24RxTextFieldDelegateProxy", "castOptionalOrFatalError"]
+- !private ["C7RxCocoa24RxTextFieldDelegateProxy", "castOrFatalError"]
+- ["C7RxCocoa24RxTextFieldDelegateProxy", "control"]
+- ["C7RxCocoa24RxTextFieldDelegateProxy", "controlTextDidChange"]
+- ["C7RxCocoa24RxTextFieldDelegateProxy", "createProxyForObject"]
+- ["C7RxCocoa24RxTextFieldDelegateProxy", "currentDelegateFor"]
+- ["C7RxCocoa24RxTextFieldDelegateProxy", "deinit"]
+- ["C7RxCocoa24RxTextFieldDelegateProxy", "forwardToDelegate"]
+- ["C7RxCocoa24RxTextFieldDelegateProxy", "init"]
+- !private ["C7RxCocoa24RxTextFieldDelegateProxy", "proxyForObject"]
+- ["C7RxCocoa24RxTextFieldDelegateProxy", "setCurrentDelegate"]
+- ["C7RxCocoa24RxTextFieldDelegateProxy", "setForwardToDelegate"]
+- ["C7RxCocoa24RxTextFieldDelegateProxy", "textField"]
+- !private ["C7RxCocoa24RxTextFieldDelegateProxy", "textSubject"]
+- !private ["SS", "init"]
+- ["P7RxSwift11SubjectType", "init"]
+- !private ["P7RxSwift11SubjectType", "on"]
+- !private ["P7RxSwift11SubjectType", "startWith"]
+- ["P7RxSwift27SynchronizedUnsubscribeType", "init"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "on"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "startWith"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["C7RxCocoa17UIBindingObserver", "asObserver"]
+- !private ["C7RxCocoa17UIBindingObserver", "deinit"]
+- !private ["C7RxCocoa17UIBindingObserver", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "RxTextFieldDelegateProxy"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "createRxDelegateProxy"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "delegate"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "stringValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "PublishSubject"]
+- !private ["Ps9_Hashable", "RxTextFieldDelegateProxy"]
+- ["Ps9_Hashable", "assignProxy"]
+- ["Ps9_Hashable", "assignedProxyFor"]
+- !private ["Ps9_Hashable", "castOptionalOrFatalError"]
+- !private ["Ps9_Hashable", "castOrFatalError"]
+- ["Ps9_Hashable", "control"]
+- ["Ps9_Hashable", "createProxyForObject"]
+- !private ["Ps9_Hashable", "createRxDelegateProxy"]
+- ["Ps9_Hashable", "currentDelegateFor"]
+- !private ["Ps9_Hashable", "delegate"]
+- ["Ps9_Hashable", "forwardToDelegate"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "object"]
+- !private ["Ps9_Hashable", "proxyForObject"]
+- ["Ps9_Hashable", "setCurrentDelegate"]
+- ["Ps9_Hashable", "setForwardToDelegate"]
+- !private ["Ps9_Hashable", "stringValue"]
+- ["Ps9_Hashable", "textField"]
+- !private ["Ps9_Hashable", "textSubject"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "object"]
+- ["CSo16_RXDelegateProxy", "AnyObject"]
+- ["CSo16_RXDelegateProxy", "NSTextField"]
+- ["CSo16_RXDelegateProxy", "Notification"]
+- ["CSo16_RXDelegateProxy", "PublishSubject"]
+- ["CSo16_RXDelegateProxy", "String"]
+- ["CSo16_RXDelegateProxy", "assignProxy"]
+- ["CSo16_RXDelegateProxy", "assignedProxyFor"]
+- !private ["CSo16_RXDelegateProxy", "castOptionalOrFatalError"]
+- !private ["CSo16_RXDelegateProxy", "castOrFatalError"]
+- ["CSo16_RXDelegateProxy", "control"]
+- ["CSo16_RXDelegateProxy", "controlTextDidChange"]
+- ["CSo16_RXDelegateProxy", "createProxyForObject"]
+- ["CSo16_RXDelegateProxy", "currentDelegateFor"]
+- ["CSo16_RXDelegateProxy", "forwardToDelegate"]
+- !private ["CSo16_RXDelegateProxy", "proxyForObject"]
+- ["CSo16_RXDelegateProxy", "setCurrentDelegate"]
+- ["CSo16_RXDelegateProxy", "setForwardToDelegate"]
+- ["CSo16_RXDelegateProxy", "textField"]
+- ["CSo16_RXDelegateProxy", "textSubject"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "P7RxSwift10Cancelable"
+- !private "Ps10Comparable"
+- !private "V7RxCocoa15ControlProperty"
+- !private "P7RxCocoa19ControlPropertyType"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C7RxCocoa13DelegateProxy"
+- "P7RxCocoa17DelegateProxyType"
+- "P7RxSwift10Disposable"
+- "Ps9Equatable"
+- !private "O7RxSwift5Event"
+- !private "P7RxSwift16EventConvertible"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo15NSAccessibility"
+- !private "PSo30NSAccessibilityElementProtocol"
+- !private "PSo34NSAccessibilityNavigableStaticText"
+- !private "PSo25NSAccessibilityStaticText"
+- !private "PSo29NSAnimatablePropertyContainer"
+- !private "PSo25NSAppearanceCustomization"
+- !private "PSo8NSCoding"
+- "CSo9NSControl"
+- "PSo28NSControlTextEditingDelegate"
+- !private "PSo9NSCopying"
+- !private "PSo21NSDraggingDestination"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- "CSo11NSResponder"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "CSo11NSTextField"
+- "PSo19NSTextFieldDelegate"
+- !private "PSo18NSTouchBarProvider"
+- !private "PSo33NSUserInterfaceItemIdentification"
+- !private "PSo26NSUserInterfaceValidations"
+- "CSo6NSView"
+- !private "V10Foundation12Notification"
+- "C7RxSwift10Observable"
+- "P7RxSwift25ObservableConvertibleType"
+- "P7RxSwift14ObservableType"
+- "P7RxSwift12ObserverType"
+- "C7RxSwift14PublishSubject"
+- "V7RxSwift8Reactive"
+- "P7RxSwift18ReactiveCompatible"
+- !private "P10Foundation20ReferenceConvertible"
+- "C7RxCocoa24RxTextFieldDelegateProxy"
+- !private "SS"
+- "P7RxSwift11SubjectType"
+- "P7RxSwift27SynchronizedUnsubscribeType"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "C7RxCocoa17UIBindingObserver"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- "CSo16_RXDelegateProxy"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxSwift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RX.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXObjCRuntime.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/RxCocoaRuntime.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXKVOObserver.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXDelegateProxy.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxCocoaRuntime.build/module.modulemap"
+interface-hash: "ee2c2b5da0eeb3ea9d5bf0b95af1976d"

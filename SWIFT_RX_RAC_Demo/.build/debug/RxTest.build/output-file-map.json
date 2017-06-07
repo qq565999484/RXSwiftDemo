@@ -1,0 +1,89 @@
+{
+  "": {
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/master.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxTest/Any+Equatable.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Any+Equatable.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Any+Equatable.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Any+Equatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Any+Equatable.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxTest/Bag.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Bag.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Bag.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Bag~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Bag.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxTest/ColdObservable.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/ColdObservable.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/ColdObservable.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/ColdObservable~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/ColdObservable.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxTest/Deprecated.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Deprecated.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Deprecated.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Deprecated.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxTest/Event+Equatable.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Event+Equatable.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Event+Equatable.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Event+Equatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Event+Equatable.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxTest/HotObservable.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/HotObservable.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/HotObservable.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/HotObservable~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/HotObservable.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxTest/Recorded.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Recorded.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Recorded.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Recorded~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Recorded.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxTest/RxTests.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/RxTests.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/RxTests.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/RxTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/RxTests.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxTest/Subscription.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Subscription.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Subscription.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Subscription~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/Subscription.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxTest/TestableObservable.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/TestableObservable.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/TestableObservable.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/TestableObservable~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/TestableObservable.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxTest/TestableObserver.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/TestableObserver.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/TestableObserver.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/TestableObserver~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/TestableObserver.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxTest/TestScheduler.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/TestScheduler.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/TestScheduler.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/TestScheduler~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/TestScheduler.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxTest/TestSchedulerVirtualTimeConverter.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/TestSchedulerVirtualTimeConverter.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/TestSchedulerVirtualTimeConverter.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/TestSchedulerVirtualTimeConverter~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/TestSchedulerVirtualTimeConverter.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxTest/XCTest+Rx.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/XCTest+Rx.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/XCTest+Rx.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/XCTest+Rx~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxTest.build/XCTest+Rx.swiftdeps"
+  }
+}

@@ -1,0 +1,572 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ReplaySubject"
+- "ReplayOne"
+- "ReplayManyBase"
+- "ReplayMany"
+- "ReplayAll"
+provides-nominal:
+- "C7RxSwift13ReplaySubject"
+- "C7RxSwift9ReplayOne"
+- "C7RxSwift14ReplayManyBase"
+- "C7RxSwift10ReplayMany"
+- "C7RxSwift9ReplayAll"
+provides-member:
+- ["C7RxSwift13ReplaySubject", ""]
+- ["C7RxSwift9ReplayOne", ""]
+- ["C7RxSwift14ReplayManyBase", ""]
+- ["C7RxSwift10ReplayMany", ""]
+- ["C7RxSwift9ReplayAll", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "=="
+- !private ">"
+- "AnyObserver"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "Disposable"
+- !private "Disposables"
+- "Event"
+- "Int"
+- "Observable"
+- "ObserverType"
+- "Queue"
+- "RecursiveLock"
+- "ReplayAll"
+- "ReplayBufferBase"
+- "ReplayMany"
+- "ReplayManyBase"
+- "ReplayOne"
+- "ReplaySubject"
+- !private "RxError"
+- !private "StringLiteralType"
+- "SubjectType"
+- !private "SubscriptionDisposable"
+- !private "SynchronizedUnsubscribeType"
+- !private "dispatch"
+- !private "rxAbstractMethod"
+depends-member:
+- !private ["Ps9AnyObject", "Disposables"]
+- ["Ps9AnyObject", "Observers"]
+- !private ["Ps9AnyObject", "Queue"]
+- ["Ps9AnyObject", "RecursiveLock"]
+- !private ["Ps9AnyObject", "ReplayAll"]
+- !private ["Ps9AnyObject", "ReplayMany"]
+- !private ["Ps9AnyObject", "ReplayOne"]
+- !private ["Ps9AnyObject", "RxError"]
+- !private ["Ps9AnyObject", "SubscriptionDisposable"]
+- !private ["Ps9AnyObject", "_bufferSize"]
+- !private ["Ps9AnyObject", "_isDisposed"]
+- !private ["Ps9AnyObject", "_isStopped"]
+- !private ["Ps9AnyObject", "_lock"]
+- !private ["Ps9AnyObject", "_observers"]
+- !private ["Ps9AnyObject", "_queue"]
+- !private ["Ps9AnyObject", "_stoppedEvent"]
+- !private ["Ps9AnyObject", "_synchronized_dispose"]
+- !private ["Ps9AnyObject", "_synchronized_on"]
+- !private ["Ps9AnyObject", "_synchronized_subscribe"]
+- !private ["Ps9AnyObject", "_synchronized_unsubscribe"]
+- !private ["Ps9AnyObject", "_value"]
+- !private ["Ps9AnyObject", "addValueToBuffer"]
+- ["Ps9AnyObject", "asObserver"]
+- !private ["Ps9AnyObject", "dispatch"]
+- ["Ps9AnyObject", "dispose"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lock"]
+- ["Ps9AnyObject", "on"]
+- !private ["Ps9AnyObject", "replayBuffer"]
+- !private ["Ps9AnyObject", "rxAbstractMethod"]
+- !private ["Ps9AnyObject", "synchronizedDispose"]
+- !private ["Ps9AnyObject", "synchronizedUnsubscribe"]
+- !private ["Ps9AnyObject", "trim"]
+- !private ["Ps9AnyObject", "unlock"]
+- ["Ps9AnyObject", ""]
+- !private ["V7RxSwift11AnyObserver", "deinit"]
+- ["V7RxSwift11AnyObserver", "s"]
+- ["V7RxSwift3Bag", "KeyType"]
+- !private ["V7RxSwift3Bag", "count"]
+- ["V7RxSwift3Bag", "init"]
+- !private ["V7RxSwift3Bag", "insert"]
+- !private ["V7RxSwift3Bag", "removeAll"]
+- !private ["V7RxSwift3Bag", "removeKey"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "lock"]
+- !private ["Ps7CVarArg", "unlock"]
+- ["Ps28CustomDebugStringConvertible", "KeyType"]
+- ["Ps28CustomDebugStringConvertible", "completed"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "disposed"]
+- ["Ps28CustomDebugStringConvertible", "error"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "insert"]
+- !private ["Ps28CustomDebugStringConvertible", "lock"]
+- ["Ps28CustomDebugStringConvertible", "next"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAll"]
+- !private ["Ps28CustomDebugStringConvertible", "removeKey"]
+- !private ["Ps28CustomDebugStringConvertible", "unlock"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lock"]
+- !private ["Ps23CustomStringConvertible", "unlock"]
+- !private ["P7RxSwift10Disposable", "Disposables"]
+- ["P7RxSwift10Disposable", "Observers"]
+- !private ["P7RxSwift10Disposable", "Queue"]
+- ["P7RxSwift10Disposable", "RecursiveLock"]
+- !private ["P7RxSwift10Disposable", "ReplayAll"]
+- !private ["P7RxSwift10Disposable", "ReplayMany"]
+- !private ["P7RxSwift10Disposable", "ReplayOne"]
+- !private ["P7RxSwift10Disposable", "RxError"]
+- !private ["P7RxSwift10Disposable", "SubscriptionDisposable"]
+- !private ["P7RxSwift10Disposable", "_bufferSize"]
+- !private ["P7RxSwift10Disposable", "_isDisposed"]
+- !private ["P7RxSwift10Disposable", "_isStopped"]
+- !private ["P7RxSwift10Disposable", "_lock"]
+- !private ["P7RxSwift10Disposable", "_observers"]
+- !private ["P7RxSwift10Disposable", "_queue"]
+- !private ["P7RxSwift10Disposable", "_stoppedEvent"]
+- !private ["P7RxSwift10Disposable", "_synchronized_dispose"]
+- !private ["P7RxSwift10Disposable", "_synchronized_on"]
+- !private ["P7RxSwift10Disposable", "_synchronized_subscribe"]
+- !private ["P7RxSwift10Disposable", "_synchronized_unsubscribe"]
+- !private ["P7RxSwift10Disposable", "_value"]
+- !private ["P7RxSwift10Disposable", "addValueToBuffer"]
+- ["P7RxSwift10Disposable", "asObserver"]
+- !private ["P7RxSwift10Disposable", "dispatch"]
+- ["P7RxSwift10Disposable", "dispose"]
+- !private ["P7RxSwift10Disposable", "init"]
+- ["P7RxSwift10Disposable", "on"]
+- !private ["P7RxSwift10Disposable", "replayBuffer"]
+- !private ["P7RxSwift10Disposable", "rxAbstractMethod"]
+- !private ["P7RxSwift10Disposable", "synchronizedDispose"]
+- !private ["P7RxSwift10Disposable", "synchronizedUnsubscribe"]
+- !private ["P7RxSwift10Disposable", "trim"]
+- ["P7RxSwift10Disposable", ""]
+- !private ["V7RxSwift11Disposables", "create"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lock"]
+- !private ["Ps9Equatable", "unlock"]
+- !private ["Ps5Error", "disposed"]
+- ["O7RxSwift5Event", "completed"]
+- ["O7RxSwift5Event", "error"]
+- ["O7RxSwift5Event", "next"]
+- ["P7RxSwift16EventConvertible", "completed"]
+- ["P7RxSwift16EventConvertible", "error"]
+- ["P7RxSwift16EventConvertible", "next"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lock"]
+- !private ["Ps8Hashable", "unlock"]
+- ["P7RxSwift4Lock", "init"]
+- !private ["P7RxSwift4Lock", "lock"]
+- !private ["P7RxSwift4Lock", "unlock"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["PSo9NSLocking", "init"]
+- !private ["PSo9NSLocking", "lock"]
+- !private ["PSo9NSLocking", "unlock"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "lock"]
+- !private ["CSo8NSObject", "unlock"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "lock"]
+- !private ["PSo16NSObjectProtocol", "unlock"]
+- !private ["CSo15NSRecursiveLock", "deinit"]
+- ["CSo15NSRecursiveLock", "init"]
+- !private ["CSo15NSRecursiveLock", "lock"]
+- !private ["CSo15NSRecursiveLock", "unlock"]
+- ["C7RxSwift10Observable", "AnyObserver"]
+- ["C7RxSwift10Observable", "Bool"]
+- ["C7RxSwift10Observable", "Disposable"]
+- !private ["C7RxSwift10Observable", "Disposables"]
+- ["C7RxSwift10Observable", "DisposeKey"]
+- ["C7RxSwift10Observable", "E"]
+- ["C7RxSwift10Observable", "Element"]
+- ["C7RxSwift10Observable", "Event"]
+- ["C7RxSwift10Observable", "Int"]
+- ["C7RxSwift10Observable", "ObserverType"]
+- ["C7RxSwift10Observable", "Observers"]
+- ["C7RxSwift10Observable", "Queue"]
+- ["C7RxSwift10Observable", "RecursiveLock"]
+- !private ["C7RxSwift10Observable", "ReplayAll"]
+- !private ["C7RxSwift10Observable", "ReplayMany"]
+- !private ["C7RxSwift10Observable", "ReplayOne"]
+- ["C7RxSwift10Observable", "ReplaySubject"]
+- !private ["C7RxSwift10Observable", "RxError"]
+- ["C7RxSwift10Observable", "SubjectObserverType"]
+- !private ["C7RxSwift10Observable", "SubscriptionDisposable"]
+- ["C7RxSwift10Observable", "_bufferSize"]
+- ["C7RxSwift10Observable", "_isDisposed"]
+- ["C7RxSwift10Observable", "_isStopped"]
+- ["C7RxSwift10Observable", "_lock"]
+- ["C7RxSwift10Observable", "_observers"]
+- ["C7RxSwift10Observable", "_queue"]
+- ["C7RxSwift10Observable", "_stoppedEvent"]
+- ["C7RxSwift10Observable", "_synchronized_dispose"]
+- !private ["C7RxSwift10Observable", "_synchronized_on"]
+- !private ["C7RxSwift10Observable", "_synchronized_subscribe"]
+- !private ["C7RxSwift10Observable", "_synchronized_unsubscribe"]
+- ["C7RxSwift10Observable", "_value"]
+- ["C7RxSwift10Observable", "addValueToBuffer"]
+- ["C7RxSwift10Observable", "asObserver"]
+- ["C7RxSwift10Observable", "create"]
+- ["C7RxSwift10Observable", "createUnbounded"]
+- !private ["C7RxSwift10Observable", "dispatch"]
+- ["C7RxSwift10Observable", "dispose"]
+- ["C7RxSwift10Observable", "hasObservers"]
+- ["C7RxSwift10Observable", "init"]
+- ["C7RxSwift10Observable", "isStopped"]
+- ["C7RxSwift10Observable", "on"]
+- ["C7RxSwift10Observable", "replayBuffer"]
+- !private ["C7RxSwift10Observable", "rxAbstractMethod"]
+- !private ["C7RxSwift10Observable", "subscribe"]
+- !private ["C7RxSwift10Observable", "synchronizedDispose"]
+- !private ["C7RxSwift10Observable", "synchronizedUnsubscribe"]
+- ["C7RxSwift10Observable", "trim"]
+- ["C7RxSwift10Observable", "unsubscribe"]
+- ["C7RxSwift10Observable", ""]
+- !private ["P7RxSwift25ObservableConvertibleType", "Disposables"]
+- ["P7RxSwift25ObservableConvertibleType", "Observers"]
+- !private ["P7RxSwift25ObservableConvertibleType", "Queue"]
+- ["P7RxSwift25ObservableConvertibleType", "RecursiveLock"]
+- !private ["P7RxSwift25ObservableConvertibleType", "ReplayAll"]
+- !private ["P7RxSwift25ObservableConvertibleType", "ReplayMany"]
+- !private ["P7RxSwift25ObservableConvertibleType", "ReplayOne"]
+- !private ["P7RxSwift25ObservableConvertibleType", "RxError"]
+- !private ["P7RxSwift25ObservableConvertibleType", "SubscriptionDisposable"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_bufferSize"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_isDisposed"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_isStopped"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_lock"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_observers"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_queue"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_stoppedEvent"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_synchronized_dispose"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_synchronized_on"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_synchronized_subscribe"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_synchronized_unsubscribe"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_value"]
+- !private ["P7RxSwift25ObservableConvertibleType", "addValueToBuffer"]
+- ["P7RxSwift25ObservableConvertibleType", "asObserver"]
+- !private ["P7RxSwift25ObservableConvertibleType", "dispatch"]
+- ["P7RxSwift25ObservableConvertibleType", "dispose"]
+- !private ["P7RxSwift25ObservableConvertibleType", "init"]
+- ["P7RxSwift25ObservableConvertibleType", "on"]
+- !private ["P7RxSwift25ObservableConvertibleType", "replayBuffer"]
+- !private ["P7RxSwift25ObservableConvertibleType", "rxAbstractMethod"]
+- !private ["P7RxSwift25ObservableConvertibleType", "synchronizedDispose"]
+- !private ["P7RxSwift25ObservableConvertibleType", "synchronizedUnsubscribe"]
+- !private ["P7RxSwift25ObservableConvertibleType", "trim"]
+- ["P7RxSwift25ObservableConvertibleType", ""]
+- !private ["P7RxSwift14ObservableType", "Disposables"]
+- ["P7RxSwift14ObservableType", "Observers"]
+- !private ["P7RxSwift14ObservableType", "Queue"]
+- ["P7RxSwift14ObservableType", "RecursiveLock"]
+- !private ["P7RxSwift14ObservableType", "ReplayAll"]
+- !private ["P7RxSwift14ObservableType", "ReplayMany"]
+- !private ["P7RxSwift14ObservableType", "ReplayOne"]
+- !private ["P7RxSwift14ObservableType", "RxError"]
+- !private ["P7RxSwift14ObservableType", "SubscriptionDisposable"]
+- !private ["P7RxSwift14ObservableType", "_bufferSize"]
+- !private ["P7RxSwift14ObservableType", "_isDisposed"]
+- !private ["P7RxSwift14ObservableType", "_isStopped"]
+- !private ["P7RxSwift14ObservableType", "_lock"]
+- !private ["P7RxSwift14ObservableType", "_observers"]
+- !private ["P7RxSwift14ObservableType", "_queue"]
+- !private ["P7RxSwift14ObservableType", "_stoppedEvent"]
+- !private ["P7RxSwift14ObservableType", "_synchronized_dispose"]
+- !private ["P7RxSwift14ObservableType", "_synchronized_on"]
+- !private ["P7RxSwift14ObservableType", "_synchronized_subscribe"]
+- !private ["P7RxSwift14ObservableType", "_synchronized_unsubscribe"]
+- !private ["P7RxSwift14ObservableType", "_value"]
+- !private ["P7RxSwift14ObservableType", "addValueToBuffer"]
+- ["P7RxSwift14ObservableType", "asObserver"]
+- !private ["P7RxSwift14ObservableType", "dispatch"]
+- ["P7RxSwift14ObservableType", "dispose"]
+- !private ["P7RxSwift14ObservableType", "init"]
+- ["P7RxSwift14ObservableType", "on"]
+- !private ["P7RxSwift14ObservableType", "replayBuffer"]
+- !private ["P7RxSwift14ObservableType", "rxAbstractMethod"]
+- !private ["P7RxSwift14ObservableType", "synchronizedDispose"]
+- !private ["P7RxSwift14ObservableType", "synchronizedUnsubscribe"]
+- !private ["P7RxSwift14ObservableType", "trim"]
+- ["P7RxSwift14ObservableType", ""]
+- !private ["P7RxSwift12ObserverType", "Disposables"]
+- ["P7RxSwift12ObserverType", "Observers"]
+- !private ["P7RxSwift12ObserverType", "Queue"]
+- ["P7RxSwift12ObserverType", "RecursiveLock"]
+- !private ["P7RxSwift12ObserverType", "ReplayAll"]
+- !private ["P7RxSwift12ObserverType", "ReplayMany"]
+- !private ["P7RxSwift12ObserverType", "ReplayOne"]
+- !private ["P7RxSwift12ObserverType", "RxError"]
+- !private ["P7RxSwift12ObserverType", "SubscriptionDisposable"]
+- !private ["P7RxSwift12ObserverType", "_bufferSize"]
+- !private ["P7RxSwift12ObserverType", "_isDisposed"]
+- !private ["P7RxSwift12ObserverType", "_isStopped"]
+- !private ["P7RxSwift12ObserverType", "_lock"]
+- !private ["P7RxSwift12ObserverType", "_observers"]
+- !private ["P7RxSwift12ObserverType", "_queue"]
+- !private ["P7RxSwift12ObserverType", "_stoppedEvent"]
+- !private ["P7RxSwift12ObserverType", "_synchronized_dispose"]
+- !private ["P7RxSwift12ObserverType", "_synchronized_on"]
+- !private ["P7RxSwift12ObserverType", "_synchronized_subscribe"]
+- !private ["P7RxSwift12ObserverType", "_synchronized_unsubscribe"]
+- !private ["P7RxSwift12ObserverType", "_value"]
+- !private ["P7RxSwift12ObserverType", "addValueToBuffer"]
+- ["P7RxSwift12ObserverType", "asObserver"]
+- !private ["P7RxSwift12ObserverType", "dispatch"]
+- ["P7RxSwift12ObserverType", "dispose"]
+- !private ["P7RxSwift12ObserverType", "init"]
+- ["P7RxSwift12ObserverType", "on"]
+- !private ["P7RxSwift12ObserverType", "replayBuffer"]
+- !private ["P7RxSwift12ObserverType", "rxAbstractMethod"]
+- ["P7RxSwift12ObserverType", "s"]
+- !private ["P7RxSwift12ObserverType", "synchronizedDispose"]
+- !private ["P7RxSwift12ObserverType", "synchronizedUnsubscribe"]
+- !private ["P7RxSwift12ObserverType", "trim"]
+- ["P7RxSwift12ObserverType", ""]
+- !private ["V7RxSwift5Queue", "count"]
+- !private ["V7RxSwift5Queue", "deinit"]
+- !private ["V7RxSwift5Queue", "dequeue"]
+- !private ["V7RxSwift5Queue", "enqueue"]
+- !private ["V7RxSwift5Queue", "init"]
+- ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift18ReactiveCompatible", "lock"]
+- !private ["P7RxSwift18ReactiveCompatible", "unlock"]
+- ["C7RxSwift9ReplayAll", "deinit"]
+- ["C7RxSwift9ReplayAll", "init"]
+- ["C7RxSwift9ReplayAll", "trim"]
+- ["C7RxSwift10ReplayMany", "Int"]
+- !private ["C7RxSwift10ReplayMany", "_bufferSize"]
+- !private ["C7RxSwift10ReplayMany", "_queue"]
+- ["C7RxSwift10ReplayMany", "deinit"]
+- ["C7RxSwift10ReplayMany", "init"]
+- ["C7RxSwift10ReplayMany", "trim"]
+- ["C7RxSwift14ReplayManyBase", "Element"]
+- ["C7RxSwift14ReplayManyBase", "Int"]
+- ["C7RxSwift14ReplayManyBase", "ObserverType"]
+- ["C7RxSwift14ReplayManyBase", "Queue"]
+- ["C7RxSwift14ReplayManyBase", "_bufferSize"]
+- !private ["C7RxSwift14ReplayManyBase", "_queue"]
+- ["C7RxSwift14ReplayManyBase", "_synchronized_dispose"]
+- ["C7RxSwift14ReplayManyBase", "addValueToBuffer"]
+- ["C7RxSwift14ReplayManyBase", "deinit"]
+- ["C7RxSwift14ReplayManyBase", "init"]
+- ["C7RxSwift14ReplayManyBase", "replayBuffer"]
+- ["C7RxSwift14ReplayManyBase", "trim"]
+- ["C7RxSwift14ReplayManyBase", ""]
+- ["C7RxSwift9ReplayOne", "Element"]
+- ["C7RxSwift9ReplayOne", "ObserverType"]
+- ["C7RxSwift9ReplayOne", "_synchronized_dispose"]
+- !private ["C7RxSwift9ReplayOne", "_value"]
+- ["C7RxSwift9ReplayOne", "addValueToBuffer"]
+- ["C7RxSwift9ReplayOne", "deinit"]
+- ["C7RxSwift9ReplayOne", "init"]
+- ["C7RxSwift9ReplayOne", "replayBuffer"]
+- ["C7RxSwift9ReplayOne", "trim"]
+- ["C7RxSwift13ReplaySubject", "AnyObserver"]
+- ["C7RxSwift13ReplaySubject", "Bool"]
+- ["C7RxSwift13ReplaySubject", "Disposable"]
+- !private ["C7RxSwift13ReplaySubject", "Disposables"]
+- ["C7RxSwift13ReplaySubject", "DisposeKey"]
+- ["C7RxSwift13ReplaySubject", "E"]
+- ["C7RxSwift13ReplaySubject", "Element"]
+- ["C7RxSwift13ReplaySubject", "Event"]
+- ["C7RxSwift13ReplaySubject", "Int"]
+- ["C7RxSwift13ReplaySubject", "ObserverType"]
+- ["C7RxSwift13ReplaySubject", "Observers"]
+- ["C7RxSwift13ReplaySubject", "Queue"]
+- ["C7RxSwift13ReplaySubject", "RecursiveLock"]
+- !private ["C7RxSwift13ReplaySubject", "ReplayAll"]
+- !private ["C7RxSwift13ReplaySubject", "ReplayMany"]
+- !private ["C7RxSwift13ReplaySubject", "ReplayOne"]
+- ["C7RxSwift13ReplaySubject", "ReplaySubject"]
+- !private ["C7RxSwift13ReplaySubject", "RxError"]
+- ["C7RxSwift13ReplaySubject", "SubjectObserverType"]
+- !private ["C7RxSwift13ReplaySubject", "SubscriptionDisposable"]
+- ["C7RxSwift13ReplaySubject", "_bufferSize"]
+- !private ["C7RxSwift13ReplaySubject", "_isDisposed"]
+- !private ["C7RxSwift13ReplaySubject", "_isStopped"]
+- !private ["C7RxSwift13ReplaySubject", "_lock"]
+- !private ["C7RxSwift13ReplaySubject", "_observers"]
+- ["C7RxSwift13ReplaySubject", "_queue"]
+- !private ["C7RxSwift13ReplaySubject", "_stoppedEvent"]
+- ["C7RxSwift13ReplaySubject", "_synchronized_dispose"]
+- !private ["C7RxSwift13ReplaySubject", "_synchronized_on"]
+- !private ["C7RxSwift13ReplaySubject", "_synchronized_subscribe"]
+- !private ["C7RxSwift13ReplaySubject", "_synchronized_unsubscribe"]
+- ["C7RxSwift13ReplaySubject", "_value"]
+- ["C7RxSwift13ReplaySubject", "addValueToBuffer"]
+- ["C7RxSwift13ReplaySubject", "asObserver"]
+- ["C7RxSwift13ReplaySubject", "create"]
+- ["C7RxSwift13ReplaySubject", "createUnbounded"]
+- ["C7RxSwift13ReplaySubject", "deinit"]
+- !private ["C7RxSwift13ReplaySubject", "dispatch"]
+- ["C7RxSwift13ReplaySubject", "dispose"]
+- ["C7RxSwift13ReplaySubject", "hasObservers"]
+- ["C7RxSwift13ReplaySubject", "init"]
+- ["C7RxSwift13ReplaySubject", "isStopped"]
+- ["C7RxSwift13ReplaySubject", "on"]
+- ["C7RxSwift13ReplaySubject", "replayBuffer"]
+- !private ["C7RxSwift13ReplaySubject", "rxAbstractMethod"]
+- !private ["C7RxSwift13ReplaySubject", "subscribe"]
+- !private ["C7RxSwift13ReplaySubject", "synchronizedDispose"]
+- !private ["C7RxSwift13ReplaySubject", "synchronizedUnsubscribe"]
+- ["C7RxSwift13ReplaySubject", "trim"]
+- ["C7RxSwift13ReplaySubject", "unsubscribe"]
+- !private ["C7RxSwift13ReplaySubject", ""]
+- !private ["O7RxSwift7RxError", "deinit"]
+- !private ["O7RxSwift7RxError", "disposed"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "dequeue"]
+- !private ["Ps8Sequence", "enqueue"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["P7RxSwift11SubjectType", "Disposables"]
+- ["P7RxSwift11SubjectType", "Observers"]
+- !private ["P7RxSwift11SubjectType", "Queue"]
+- ["P7RxSwift11SubjectType", "RecursiveLock"]
+- !private ["P7RxSwift11SubjectType", "ReplayAll"]
+- !private ["P7RxSwift11SubjectType", "ReplayMany"]
+- !private ["P7RxSwift11SubjectType", "ReplayOne"]
+- !private ["P7RxSwift11SubjectType", "RxError"]
+- !private ["P7RxSwift11SubjectType", "SubscriptionDisposable"]
+- !private ["P7RxSwift11SubjectType", "_bufferSize"]
+- !private ["P7RxSwift11SubjectType", "_isDisposed"]
+- !private ["P7RxSwift11SubjectType", "_isStopped"]
+- !private ["P7RxSwift11SubjectType", "_lock"]
+- !private ["P7RxSwift11SubjectType", "_observers"]
+- !private ["P7RxSwift11SubjectType", "_queue"]
+- !private ["P7RxSwift11SubjectType", "_stoppedEvent"]
+- !private ["P7RxSwift11SubjectType", "_synchronized_dispose"]
+- !private ["P7RxSwift11SubjectType", "_synchronized_on"]
+- !private ["P7RxSwift11SubjectType", "_synchronized_subscribe"]
+- !private ["P7RxSwift11SubjectType", "_synchronized_unsubscribe"]
+- !private ["P7RxSwift11SubjectType", "_value"]
+- !private ["P7RxSwift11SubjectType", "addValueToBuffer"]
+- ["P7RxSwift11SubjectType", "asObserver"]
+- !private ["P7RxSwift11SubjectType", "dispatch"]
+- ["P7RxSwift11SubjectType", "dispose"]
+- !private ["P7RxSwift11SubjectType", "init"]
+- ["P7RxSwift11SubjectType", "on"]
+- !private ["P7RxSwift11SubjectType", "replayBuffer"]
+- !private ["P7RxSwift11SubjectType", "rxAbstractMethod"]
+- !private ["P7RxSwift11SubjectType", "synchronizedDispose"]
+- !private ["P7RxSwift11SubjectType", "synchronizedUnsubscribe"]
+- !private ["P7RxSwift11SubjectType", "trim"]
+- ["P7RxSwift11SubjectType", ""]
+- !private ["V7RxSwift22SubscriptionDisposable", "deinit"]
+- !private ["V7RxSwift22SubscriptionDisposable", "init"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "Disposables"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "Observers"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "Queue"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "RxError"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "SubscriptionDisposable"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "_bufferSize"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "_isDisposed"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "_isStopped"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "_lock"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "_observers"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "_queue"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "_stoppedEvent"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "_synchronized_dispose"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "_synchronized_on"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "_synchronized_subscribe"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "_synchronized_unsubscribe"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "_value"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "addValueToBuffer"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "dispatch"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "init"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "replayBuffer"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "rxAbstractMethod"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "synchronizedDispose"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "synchronizedUnsubscribe"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "trim"]
+- ["P7RxSwift27SynchronizedUnsubscribeType", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "lock"]
+- !private ["Ps9_Hashable", "unlock"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- "V7RxSwift11AnyObserver"
+- "V7RxSwift3Bag"
+- !private "Sb"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "P7RxSwift10Disposable"
+- !private "V7RxSwift11Disposables"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- "O7RxSwift5Event"
+- "P7RxSwift16EventConvertible"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "P7RxSwift4Lock"
+- !private "Ps25LosslessStringConvertible"
+- "PSo9NSLocking"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo15NSRecursiveLock"
+- "C7RxSwift10Observable"
+- "P7RxSwift25ObservableConvertibleType"
+- "P7RxSwift14ObservableType"
+- "P7RxSwift12ObserverType"
+- !private "V7RxSwift5Queue"
+- "P7RxSwift18ReactiveCompatible"
+- "C7RxSwift9ReplayAll"
+- "C7RxSwift10ReplayMany"
+- "C7RxSwift14ReplayManyBase"
+- "C7RxSwift9ReplayOne"
+- "C7RxSwift13ReplaySubject"
+- !private "O7RxSwift7RxError"
+- !private "Ps8Sequence"
+- !private "Vs12StaticString"
+- "P7RxSwift11SubjectType"
+- !private "V7RxSwift22SubscriptionDisposable"
+- "P7RxSwift27SynchronizedUnsubscribeType"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxCocoaRuntime.build/module.modulemap"
+interface-hash: "998867c8eeab0b626d15736778d5e07b"

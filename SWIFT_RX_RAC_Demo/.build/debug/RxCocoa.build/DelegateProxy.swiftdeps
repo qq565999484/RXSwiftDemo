@@ -1,0 +1,687 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "delegateAssociatedTag"
+- "dataSourceAssociatedTag"
+- "DelegateProxy"
+provides-nominal:
+- "C7RxCocoa13DelegateProxy"
+provides-member:
+- ["C7RxCocoa13DelegateProxy", ""]
+provides-dynamic-lookup:
+- "_methodInvoked"
+- "_sentMessage"
+- "assignProxy"
+- "assignedProxyFor"
+- "createProxyForObject"
+- "delegateAssociatedObjectTag"
+- "forwardToDelegate"
+- "parentObject"
+- "reset"
+- "responds"
+- "setForwardToDelegate"
+depends-top-level:
+- !private "&&"
+- !private "==="
+- !private "??"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "DelegateProxy"
+- !private "DelegateProxyType"
+- "Event"
+- "MainScheduler"
+- "MessageDispatcher"
+- "Observable"
+- !private "PublishSubject"
+- "Selector"
+- !private "StringLiteralType"
+- "UInt8"
+- "UnsafeMutablePointer"
+- "UnsafeRawPointer"
+- "_RXDelegateProxy"
+- !private "castOptionalOrFatalError"
+- "dataSourceAssociatedTag"
+- "delegateAssociatedTag"
+- !private "mainScheduler"
+- !private "objc_getAssociatedObject"
+- !private "objc_setAssociatedObject"
+- !private "precondition"
+- !private "print"
+- !private "rxFatalError"
+- !private "rxFatalErrorInDebug"
+- !private "||"
+depends-member:
+- !private ["Ps9AnyObject", "MainScheduler"]
+- ["Ps9AnyObject", "MessageDispatcher"]
+- !private ["Ps9AnyObject", "PublishSubject"]
+- ["Ps9AnyObject", "Selector"]
+- !private ["Ps9AnyObject", "_forwardToDelegate"]
+- !private ["Ps9AnyObject", "_setForward"]
+- !private ["Ps9AnyObject", "asObservable"]
+- !private ["Ps9AnyObject", "castOptionalOrFatalError"]
+- !private ["Ps9AnyObject", "checkSelectorIsObservable"]
+- !private ["Ps9AnyObject", "classForCoder"]
+- !private ["Ps9AnyObject", "currentDelegateFor"]
+- !private ["Ps9AnyObject", "delegateAssociatedObjectTag"]
+- !private ["Ps9AnyObject", "delegateAssociatedTag"]
+- !private ["Ps9AnyObject", "dispatcher"]
+- !private ["Ps9AnyObject", "do"]
+- !private ["Ps9AnyObject", "ensureExecutingOnScheduler"]
+- !private ["Ps9AnyObject", "forwardToDelegate"]
+- !private ["Ps9AnyObject", "hasObservers"]
+- !private ["Ps9AnyObject", "hasWiredImplementation"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isKind"]
+- !private ["Ps9AnyObject", "mainScheduler"]
+- !private ["Ps9AnyObject", "methodInvokedForSelector"]
+- !private ["Ps9AnyObject", "objc_getAssociatedObject"]
+- !private ["Ps9AnyObject", "objc_setAssociatedObject"]
+- !private ["Ps9AnyObject", "on"]
+- !private ["Ps9AnyObject", "parentObject"]
+- !private ["Ps9AnyObject", "precondition"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "reset"]
+- !private ["Ps9AnyObject", "responds"]
+- !private ["Ps9AnyObject", "result"]
+- !private ["Ps9AnyObject", "rxFatalError"]
+- !private ["Ps9AnyObject", "rxFatalErrorInDebug"]
+- !private ["Ps9AnyObject", "sentMessageForSelector"]
+- !private ["Ps9AnyObject", "setCurrentDelegate"]
+- !private ["Ps9AnyObject", "share"]
+- !private ["Ps9AnyObject", "subscribeOn"]
+- !private ["Ps9AnyObject", "voidDelegateMethodsContain"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "MainScheduler"]
+- ["Ps7CVarArg", "MessageDispatcher"]
+- ["Ps7CVarArg", "Selector"]
+- !private ["Ps7CVarArg", "_forwardToDelegate"]
+- !private ["Ps7CVarArg", "_setForward"]
+- ["Ps7CVarArg", "allocate"]
+- !private ["Ps7CVarArg", "castOptionalOrFatalError"]
+- !private ["Ps7CVarArg", "checkSelectorIsObservable"]
+- !private ["Ps7CVarArg", "classForCoder"]
+- !private ["Ps7CVarArg", "delegateAssociatedObjectTag"]
+- !private ["Ps7CVarArg", "delegateAssociatedTag"]
+- !private ["Ps7CVarArg", "forwardToDelegate"]
+- !private ["Ps7CVarArg", "hasObservers"]
+- !private ["Ps7CVarArg", "hasWiredImplementation"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "methodInvokedForSelector"]
+- !private ["Ps7CVarArg", "objc_getAssociatedObject"]
+- !private ["Ps7CVarArg", "objc_setAssociatedObject"]
+- !private ["Ps7CVarArg", "parentObject"]
+- !private ["Ps7CVarArg", "precondition"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "reset"]
+- !private ["Ps7CVarArg", "responds"]
+- !private ["Ps7CVarArg", "rxFatalError"]
+- !private ["Ps7CVarArg", "rxFatalErrorInDebug"]
+- !private ["Ps7CVarArg", "sentMessageForSelector"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "values"]
+- !private ["Ps7CVarArg", "voidDelegateMethodsContain"]
+- ["Ps7CVarArg", ""]
+- !private ["P7RxSwift10Cancelable", "do"]
+- !private ["P7RxSwift10Cancelable", "hasObservers"]
+- !private ["P7RxSwift10Cancelable", "init"]
+- !private ["P7RxSwift10Cancelable", "on"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Collection", "values"]
+- ["Ps10Comparable", "allocate"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "MainScheduler"]
+- ["Ps28CustomDebugStringConvertible", "MessageDispatcher"]
+- ["Ps28CustomDebugStringConvertible", "Selector"]
+- !private ["Ps28CustomDebugStringConvertible", "_forwardToDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "_setForward"]
+- ["Ps28CustomDebugStringConvertible", "allocate"]
+- !private ["Ps28CustomDebugStringConvertible", "castOptionalOrFatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "checkSelectorIsObservable"]
+- !private ["Ps28CustomDebugStringConvertible", "classForCoder"]
+- !private ["Ps28CustomDebugStringConvertible", "completed"]
+- !private ["Ps28CustomDebugStringConvertible", "delegateAssociatedObjectTag"]
+- !private ["Ps28CustomDebugStringConvertible", "delegateAssociatedTag"]
+- !private ["Ps28CustomDebugStringConvertible", "forwardToDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "hasObservers"]
+- !private ["Ps28CustomDebugStringConvertible", "hasWiredImplementation"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "methodInvokedForSelector"]
+- !private ["Ps28CustomDebugStringConvertible", "next"]
+- !private ["Ps28CustomDebugStringConvertible", "objc_getAssociatedObject"]
+- !private ["Ps28CustomDebugStringConvertible", "objc_setAssociatedObject"]
+- !private ["Ps28CustomDebugStringConvertible", "parentObject"]
+- !private ["Ps28CustomDebugStringConvertible", "precondition"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "reset"]
+- !private ["Ps28CustomDebugStringConvertible", "responds"]
+- !private ["Ps28CustomDebugStringConvertible", "rxFatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "rxFatalErrorInDebug"]
+- !private ["Ps28CustomDebugStringConvertible", "sentMessageForSelector"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "values"]
+- !private ["Ps28CustomDebugStringConvertible", "voidDelegateMethodsContain"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "allocate"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "allocate"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "values"]
+- !private ["Ps23CustomStringConvertible", "MainScheduler"]
+- ["Ps23CustomStringConvertible", "MessageDispatcher"]
+- ["Ps23CustomStringConvertible", "Selector"]
+- !private ["Ps23CustomStringConvertible", "_forwardToDelegate"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_setForward"]
+- !private ["Ps23CustomStringConvertible", "castOptionalOrFatalError"]
+- !private ["Ps23CustomStringConvertible", "checkSelectorIsObservable"]
+- !private ["Ps23CustomStringConvertible", "classForCoder"]
+- !private ["Ps23CustomStringConvertible", "delegateAssociatedObjectTag"]
+- !private ["Ps23CustomStringConvertible", "delegateAssociatedTag"]
+- !private ["Ps23CustomStringConvertible", "forwardToDelegate"]
+- !private ["Ps23CustomStringConvertible", "hasObservers"]
+- !private ["Ps23CustomStringConvertible", "hasWiredImplementation"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "methodInvokedForSelector"]
+- !private ["Ps23CustomStringConvertible", "objc_getAssociatedObject"]
+- !private ["Ps23CustomStringConvertible", "objc_setAssociatedObject"]
+- !private ["Ps23CustomStringConvertible", "parentObject"]
+- !private ["Ps23CustomStringConvertible", "precondition"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "reset"]
+- !private ["Ps23CustomStringConvertible", "responds"]
+- !private ["Ps23CustomStringConvertible", "rxFatalError"]
+- !private ["Ps23CustomStringConvertible", "rxFatalErrorInDebug"]
+- !private ["Ps23CustomStringConvertible", "sentMessageForSelector"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "values"]
+- !private ["Ps23CustomStringConvertible", "voidDelegateMethodsContain"]
+- ["Ps23CustomStringConvertible", ""]
+- ["C7RxCocoa13DelegateProxy", "AnyObject"]
+- ["C7RxCocoa13DelegateProxy", "Bool"]
+- !private ["C7RxCocoa13DelegateProxy", "DelegateProxyType"]
+- !private ["C7RxCocoa13DelegateProxy", "MainScheduler"]
+- ["C7RxCocoa13DelegateProxy", "MessageDispatcher"]
+- ["C7RxCocoa13DelegateProxy", "Observable"]
+- ["C7RxCocoa13DelegateProxy", "Selector"]
+- ["C7RxCocoa13DelegateProxy", "UnsafeRawPointer"]
+- !private ["C7RxCocoa13DelegateProxy", "_forwardToDelegate"]
+- ["C7RxCocoa13DelegateProxy", "_methodInvoked"]
+- ["C7RxCocoa13DelegateProxy", "_sentMessage"]
+- !private ["C7RxCocoa13DelegateProxy", "_setForward"]
+- ["C7RxCocoa13DelegateProxy", "assignProxy"]
+- ["C7RxCocoa13DelegateProxy", "assignedProxyFor"]
+- !private ["C7RxCocoa13DelegateProxy", "castOptionalOrFatalError"]
+- !private ["C7RxCocoa13DelegateProxy", "checkSelectorIsObservable"]
+- !private ["C7RxCocoa13DelegateProxy", "classForCoder"]
+- ["C7RxCocoa13DelegateProxy", "createProxyForObject"]
+- ["C7RxCocoa13DelegateProxy", "deinit"]
+- ["C7RxCocoa13DelegateProxy", "delegateAssociatedObjectTag"]
+- !private ["C7RxCocoa13DelegateProxy", "delegateAssociatedTag"]
+- ["C7RxCocoa13DelegateProxy", "forwardToDelegate"]
+- !private ["C7RxCocoa13DelegateProxy", "hasObservers"]
+- !private ["C7RxCocoa13DelegateProxy", "hasWiredImplementation"]
+- ["C7RxCocoa13DelegateProxy", "init"]
+- ["C7RxCocoa13DelegateProxy", "methodInvoked"]
+- !private ["C7RxCocoa13DelegateProxy", "methodInvokedForSelector"]
+- !private ["C7RxCocoa13DelegateProxy", "objc_getAssociatedObject"]
+- !private ["C7RxCocoa13DelegateProxy", "objc_setAssociatedObject"]
+- ["C7RxCocoa13DelegateProxy", "parentObject"]
+- !private ["C7RxCocoa13DelegateProxy", "precondition"]
+- !private ["C7RxCocoa13DelegateProxy", "print"]
+- ["C7RxCocoa13DelegateProxy", "reset"]
+- ["C7RxCocoa13DelegateProxy", "responds"]
+- !private ["C7RxCocoa13DelegateProxy", "rxFatalError"]
+- !private ["C7RxCocoa13DelegateProxy", "rxFatalErrorInDebug"]
+- ["C7RxCocoa13DelegateProxy", "sentMessage"]
+- !private ["C7RxCocoa13DelegateProxy", "sentMessageForSelector"]
+- ["C7RxCocoa13DelegateProxy", "setForwardToDelegate"]
+- !private ["C7RxCocoa13DelegateProxy", "voidDelegateMethodsContain"]
+- !private ["P7RxCocoa17DelegateProxyType", "currentDelegateFor"]
+- !private ["P7RxCocoa17DelegateProxyType", "setCurrentDelegate"]
+- ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Vs10Dictionary", "values"]
+- !private ["P7RxSwift10Disposable", "do"]
+- !private ["P7RxSwift10Disposable", "hasObservers"]
+- !private ["P7RxSwift10Disposable", "init"]
+- !private ["P7RxSwift10Disposable", "on"]
+- !private ["Ps9Equatable", "MainScheduler"]
+- ["Ps9Equatable", "MessageDispatcher"]
+- !private ["Ps9Equatable", "OBJC_ASSOCIATION_RETAIN"]
+- ["Ps9Equatable", "Selector"]
+- !private ["Ps9Equatable", "_forwardToDelegate"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_setForward"]
+- ["Ps9Equatable", "allocate"]
+- !private ["Ps9Equatable", "castOptionalOrFatalError"]
+- !private ["Ps9Equatable", "checkSelectorIsObservable"]
+- !private ["Ps9Equatable", "classForCoder"]
+- !private ["Ps9Equatable", "delegateAssociatedObjectTag"]
+- !private ["Ps9Equatable", "delegateAssociatedTag"]
+- !private ["Ps9Equatable", "forwardToDelegate"]
+- !private ["Ps9Equatable", "hasObservers"]
+- !private ["Ps9Equatable", "hasWiredImplementation"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "methodInvokedForSelector"]
+- !private ["Ps9Equatable", "objc_getAssociatedObject"]
+- !private ["Ps9Equatable", "objc_setAssociatedObject"]
+- !private ["Ps9Equatable", "parentObject"]
+- !private ["Ps9Equatable", "precondition"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "reset"]
+- !private ["Ps9Equatable", "responds"]
+- !private ["Ps9Equatable", "rxFatalError"]
+- !private ["Ps9Equatable", "rxFatalErrorInDebug"]
+- !private ["Ps9Equatable", "sentMessageForSelector"]
+- !private ["Ps9Equatable", "voidDelegateMethodsContain"]
+- ["Ps9Equatable", ""]
+- !private ["O7RxSwift5Event", "completed"]
+- !private ["O7RxSwift5Event", "next"]
+- !private ["P7RxSwift16EventConvertible", "completed"]
+- !private ["P7RxSwift16EventConvertible", "next"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "values"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "map"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "MainScheduler"]
+- ["Ps8Hashable", "MessageDispatcher"]
+- !private ["Ps8Hashable", "OBJC_ASSOCIATION_RETAIN"]
+- ["Ps8Hashable", "Selector"]
+- !private ["Ps8Hashable", "_forwardToDelegate"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_setForward"]
+- ["Ps8Hashable", "allocate"]
+- !private ["Ps8Hashable", "castOptionalOrFatalError"]
+- !private ["Ps8Hashable", "checkSelectorIsObservable"]
+- !private ["Ps8Hashable", "classForCoder"]
+- !private ["Ps8Hashable", "delegateAssociatedObjectTag"]
+- !private ["Ps8Hashable", "delegateAssociatedTag"]
+- !private ["Ps8Hashable", "forwardToDelegate"]
+- !private ["Ps8Hashable", "hasObservers"]
+- !private ["Ps8Hashable", "hasWiredImplementation"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "methodInvokedForSelector"]
+- !private ["Ps8Hashable", "objc_getAssociatedObject"]
+- !private ["Ps8Hashable", "objc_setAssociatedObject"]
+- !private ["Ps8Hashable", "parentObject"]
+- !private ["Ps8Hashable", "precondition"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "reset"]
+- !private ["Ps8Hashable", "responds"]
+- !private ["Ps8Hashable", "rxFatalError"]
+- !private ["Ps8Hashable", "rxFatalErrorInDebug"]
+- !private ["Ps8Hashable", "sentMessageForSelector"]
+- !private ["Ps8Hashable", "voidDelegateMethodsContain"]
+- ["Ps8Hashable", ""]
+- !private ["P7RxSwift22ImmediateSchedulerType", "ensureExecutingOnScheduler"]
+- ["P7RxSwift22ImmediateSchedulerType", "init"]
+- !private ["P7RxCocoa16KVORepresentable", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["C7RxSwift13MainScheduler", "ensureExecutingOnScheduler"]
+- ["C7RxSwift13MainScheduler", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "DelegateProxyType"]
+- !private ["CSo8NSObject", "MainScheduler"]
+- ["CSo8NSObject", "MessageDispatcher"]
+- ["CSo8NSObject", "Observable"]
+- ["CSo8NSObject", "Selector"]
+- ["CSo8NSObject", "UnsafeRawPointer"]
+- !private ["CSo8NSObject", "_forwardToDelegate"]
+- ["CSo8NSObject", "_methodInvoked"]
+- ["CSo8NSObject", "_sentMessage"]
+- !private ["CSo8NSObject", "_setForward"]
+- ["CSo8NSObject", "assignProxy"]
+- ["CSo8NSObject", "assignedProxyFor"]
+- !private ["CSo8NSObject", "castOptionalOrFatalError"]
+- ["CSo8NSObject", "checkSelectorIsObservable"]
+- !private ["CSo8NSObject", "classForCoder"]
+- ["CSo8NSObject", "createProxyForObject"]
+- ["CSo8NSObject", "delegateAssociatedObjectTag"]
+- !private ["CSo8NSObject", "delegateAssociatedTag"]
+- ["CSo8NSObject", "forwardToDelegate"]
+- ["CSo8NSObject", "hasObservers"]
+- !private ["CSo8NSObject", "hasWiredImplementation"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "methodInvoked"]
+- ["CSo8NSObject", "methodInvokedForSelector"]
+- !private ["CSo8NSObject", "objc_getAssociatedObject"]
+- !private ["CSo8NSObject", "objc_setAssociatedObject"]
+- ["CSo8NSObject", "parentObject"]
+- !private ["CSo8NSObject", "precondition"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "reset"]
+- ["CSo8NSObject", "responds"]
+- !private ["CSo8NSObject", "rxFatalError"]
+- !private ["CSo8NSObject", "rxFatalErrorInDebug"]
+- ["CSo8NSObject", "sentMessage"]
+- ["CSo8NSObject", "sentMessageForSelector"]
+- ["CSo8NSObject", "setForwardToDelegate"]
+- !private ["CSo8NSObject", "voidDelegateMethodsContain"]
+- !private ["PSo16NSObjectProtocol", "MainScheduler"]
+- ["PSo16NSObjectProtocol", "MessageDispatcher"]
+- ["PSo16NSObjectProtocol", "Selector"]
+- !private ["PSo16NSObjectProtocol", "_forwardToDelegate"]
+- !private ["PSo16NSObjectProtocol", "_setForward"]
+- !private ["PSo16NSObjectProtocol", "castOptionalOrFatalError"]
+- !private ["PSo16NSObjectProtocol", "checkSelectorIsObservable"]
+- !private ["PSo16NSObjectProtocol", "classForCoder"]
+- !private ["PSo16NSObjectProtocol", "delegateAssociatedObjectTag"]
+- !private ["PSo16NSObjectProtocol", "delegateAssociatedTag"]
+- !private ["PSo16NSObjectProtocol", "forwardToDelegate"]
+- !private ["PSo16NSObjectProtocol", "hasObservers"]
+- !private ["PSo16NSObjectProtocol", "hasWiredImplementation"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "methodInvokedForSelector"]
+- !private ["PSo16NSObjectProtocol", "objc_getAssociatedObject"]
+- !private ["PSo16NSObjectProtocol", "objc_setAssociatedObject"]
+- !private ["PSo16NSObjectProtocol", "parentObject"]
+- !private ["PSo16NSObjectProtocol", "precondition"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "reset"]
+- !private ["PSo16NSObjectProtocol", "responds"]
+- !private ["PSo16NSObjectProtocol", "rxFatalError"]
+- !private ["PSo16NSObjectProtocol", "rxFatalErrorInDebug"]
+- !private ["PSo16NSObjectProtocol", "sentMessageForSelector"]
+- !private ["PSo16NSObjectProtocol", "voidDelegateMethodsContain"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardWriting", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["C7RxSwift10Observable", "do"]
+- !private ["C7RxSwift10Observable", "hasObservers"]
+- !private ["C7RxSwift10Observable", "init"]
+- !private ["C7RxSwift10Observable", "on"]
+- !private ["C7RxSwift10Observable", "share"]
+- !private ["C7RxSwift10Observable", "subscribeOn"]
+- !private ["P7RxSwift25ObservableConvertibleType", "do"]
+- !private ["P7RxSwift25ObservableConvertibleType", "hasObservers"]
+- !private ["P7RxSwift25ObservableConvertibleType", "init"]
+- !private ["P7RxSwift25ObservableConvertibleType", "on"]
+- !private ["P7RxSwift25ObservableConvertibleType", "share"]
+- !private ["P7RxSwift25ObservableConvertibleType", "subscribeOn"]
+- !private ["P7RxSwift14ObservableType", "do"]
+- !private ["P7RxSwift14ObservableType", "hasObservers"]
+- !private ["P7RxSwift14ObservableType", "init"]
+- !private ["P7RxSwift14ObservableType", "on"]
+- !private ["P7RxSwift14ObservableType", "share"]
+- !private ["P7RxSwift14ObservableType", "subscribeOn"]
+- !private ["P7RxSwift12ObserverType", "do"]
+- !private ["P7RxSwift12ObserverType", "hasObservers"]
+- !private ["P7RxSwift12ObserverType", "init"]
+- !private ["P7RxSwift12ObserverType", "on"]
+- !private ["Sq", "map"]
+- !private ["C7RxSwift14PublishSubject", "do"]
+- !private ["C7RxSwift14PublishSubject", "hasObservers"]
+- !private ["C7RxSwift14PublishSubject", "init"]
+- !private ["C7RxSwift14PublishSubject", "on"]
+- !private ["Ps16RawRepresentable", "OBJC_ASSOCIATION_RETAIN"]
+- !private ["P7RxSwift18ReactiveCompatible", "MainScheduler"]
+- ["P7RxSwift18ReactiveCompatible", "MessageDispatcher"]
+- ["P7RxSwift18ReactiveCompatible", "Selector"]
+- !private ["P7RxSwift18ReactiveCompatible", "_forwardToDelegate"]
+- !private ["P7RxSwift18ReactiveCompatible", "_setForward"]
+- !private ["P7RxSwift18ReactiveCompatible", "castOptionalOrFatalError"]
+- !private ["P7RxSwift18ReactiveCompatible", "checkSelectorIsObservable"]
+- !private ["P7RxSwift18ReactiveCompatible", "classForCoder"]
+- !private ["P7RxSwift18ReactiveCompatible", "delegateAssociatedObjectTag"]
+- !private ["P7RxSwift18ReactiveCompatible", "delegateAssociatedTag"]
+- !private ["P7RxSwift18ReactiveCompatible", "forwardToDelegate"]
+- !private ["P7RxSwift18ReactiveCompatible", "hasObservers"]
+- !private ["P7RxSwift18ReactiveCompatible", "hasWiredImplementation"]
+- !private ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift18ReactiveCompatible", "methodInvokedForSelector"]
+- !private ["P7RxSwift18ReactiveCompatible", "objc_getAssociatedObject"]
+- !private ["P7RxSwift18ReactiveCompatible", "objc_setAssociatedObject"]
+- !private ["P7RxSwift18ReactiveCompatible", "parentObject"]
+- !private ["P7RxSwift18ReactiveCompatible", "precondition"]
+- !private ["P7RxSwift18ReactiveCompatible", "print"]
+- !private ["P7RxSwift18ReactiveCompatible", "reset"]
+- !private ["P7RxSwift18ReactiveCompatible", "responds"]
+- !private ["P7RxSwift18ReactiveCompatible", "rxFatalError"]
+- !private ["P7RxSwift18ReactiveCompatible", "rxFatalErrorInDebug"]
+- !private ["P7RxSwift18ReactiveCompatible", "sentMessageForSelector"]
+- !private ["P7RxSwift18ReactiveCompatible", "voidDelegateMethodsContain"]
+- ["P7RxSwift18ReactiveCompatible", ""]
+- !private ["P7RxSwift13SchedulerType", "ensureExecutingOnScheduler"]
+- ["P7RxSwift13SchedulerType", "init"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps8Sequence", "values"]
+- !private ["C7RxSwift28SerialDispatchQueueScheduler", "ensureExecutingOnScheduler"]
+- !private ["Vs12StaticString", "init"]
+- ["Ps10Strideable", "allocate"]
+- ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["P7RxSwift11SubjectType", "do"]
+- !private ["P7RxSwift11SubjectType", "hasObservers"]
+- !private ["P7RxSwift11SubjectType", "init"]
+- !private ["P7RxSwift11SubjectType", "on"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "do"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "hasObservers"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "init"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "on"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Sp", "allocate"]
+- ["SV", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "MainScheduler"]
+- ["Ps9_Hashable", "MessageDispatcher"]
+- !private ["Ps9_Hashable", "OBJC_ASSOCIATION_RETAIN"]
+- ["Ps9_Hashable", "Selector"]
+- !private ["Ps9_Hashable", "_forwardToDelegate"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_setForward"]
+- ["Ps9_Hashable", "allocate"]
+- !private ["Ps9_Hashable", "castOptionalOrFatalError"]
+- !private ["Ps9_Hashable", "checkSelectorIsObservable"]
+- !private ["Ps9_Hashable", "classForCoder"]
+- !private ["Ps9_Hashable", "delegateAssociatedObjectTag"]
+- !private ["Ps9_Hashable", "delegateAssociatedTag"]
+- !private ["Ps9_Hashable", "forwardToDelegate"]
+- !private ["Ps9_Hashable", "hasObservers"]
+- !private ["Ps9_Hashable", "hasWiredImplementation"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "methodInvokedForSelector"]
+- !private ["Ps9_Hashable", "objc_getAssociatedObject"]
+- !private ["Ps9_Hashable", "objc_setAssociatedObject"]
+- !private ["Ps9_Hashable", "parentObject"]
+- !private ["Ps9_Hashable", "precondition"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "reset"]
+- !private ["Ps9_Hashable", "responds"]
+- !private ["Ps9_Hashable", "rxFatalError"]
+- !private ["Ps9_Hashable", "rxFatalErrorInDebug"]
+- !private ["Ps9_Hashable", "sentMessageForSelector"]
+- !private ["Ps9_Hashable", "voidDelegateMethodsContain"]
+- ["Ps9_Hashable", ""]
+- ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps10_Indexable", "values"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps14_IndexableBase", "values"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "values"]
+- ["Ps8_Pointer", "allocate"]
+- ["Ps8_Pointer", "init"]
+- ["CSo16_RXDelegateProxy", "AnyObject"]
+- ["CSo16_RXDelegateProxy", "Bool"]
+- !private ["CSo16_RXDelegateProxy", "DelegateProxyType"]
+- !private ["CSo16_RXDelegateProxy", "MainScheduler"]
+- ["CSo16_RXDelegateProxy", "MessageDispatcher"]
+- ["CSo16_RXDelegateProxy", "Observable"]
+- ["CSo16_RXDelegateProxy", "Selector"]
+- ["CSo16_RXDelegateProxy", "UnsafeRawPointer"]
+- !private ["CSo16_RXDelegateProxy", "_forwardToDelegate"]
+- ["CSo16_RXDelegateProxy", "_methodInvoked"]
+- ["CSo16_RXDelegateProxy", "_sentMessage"]
+- !private ["CSo16_RXDelegateProxy", "_setForward"]
+- ["CSo16_RXDelegateProxy", "assignProxy"]
+- ["CSo16_RXDelegateProxy", "assignedProxyFor"]
+- !private ["CSo16_RXDelegateProxy", "castOptionalOrFatalError"]
+- ["CSo16_RXDelegateProxy", "checkSelectorIsObservable"]
+- !private ["CSo16_RXDelegateProxy", "classForCoder"]
+- ["CSo16_RXDelegateProxy", "createProxyForObject"]
+- ["CSo16_RXDelegateProxy", "delegateAssociatedObjectTag"]
+- !private ["CSo16_RXDelegateProxy", "delegateAssociatedTag"]
+- ["CSo16_RXDelegateProxy", "forwardToDelegate"]
+- ["CSo16_RXDelegateProxy", "hasObservers"]
+- !private ["CSo16_RXDelegateProxy", "hasWiredImplementation"]
+- ["CSo16_RXDelegateProxy", "init"]
+- ["CSo16_RXDelegateProxy", "methodInvoked"]
+- ["CSo16_RXDelegateProxy", "methodInvokedForSelector"]
+- !private ["CSo16_RXDelegateProxy", "objc_getAssociatedObject"]
+- !private ["CSo16_RXDelegateProxy", "objc_setAssociatedObject"]
+- ["CSo16_RXDelegateProxy", "parentObject"]
+- !private ["CSo16_RXDelegateProxy", "precondition"]
+- !private ["CSo16_RXDelegateProxy", "print"]
+- ["CSo16_RXDelegateProxy", "reset"]
+- ["CSo16_RXDelegateProxy", "responds"]
+- !private ["CSo16_RXDelegateProxy", "rxFatalError"]
+- !private ["CSo16_RXDelegateProxy", "rxFatalErrorInDebug"]
+- ["CSo16_RXDelegateProxy", "sentMessage"]
+- ["CSo16_RXDelegateProxy", "sentMessageForSelector"]
+- ["CSo16_RXDelegateProxy", "setForwardToDelegate"]
+- !private ["CSo16_RXDelegateProxy", "voidDelegateMethodsContain"]
+- ["CSo16_RXDelegateProxy", ""]
+- ["Ps11_Strideable", "allocate"]
+- ["Ps11_Strideable", "init"]
+- !private ["OSC22objc_AssociationPolicy", "OBJC_ASSOCIATION_RETAIN"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "P7RxSwift10Cancelable"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C7RxCocoa13DelegateProxy"
+- !private "P7RxCocoa17DelegateProxyType"
+- "Vs10Dictionary"
+- !private "P7RxSwift10Disposable"
+- "Ps9Equatable"
+- !private "O7RxSwift5Event"
+- !private "P7RxSwift16EventConvertible"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "P7RxSwift22ImmediateSchedulerType"
+- !private "P7RxCocoa16KVORepresentable"
+- !private "Ps25LosslessStringConvertible"
+- "C7RxSwift13MainScheduler"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- !private "P7RxSwift12ObserverType"
+- !private "Sq"
+- !private "C7RxSwift14PublishSubject"
+- !private "Ps16RawRepresentable"
+- "P7RxSwift18ReactiveCompatible"
+- "P7RxSwift13SchedulerType"
+- "Ps8Sequence"
+- !private "C7RxSwift28SerialDispatchQueueScheduler"
+- !private "Vs12StaticString"
+- "Ps10Strideable"
+- !private "SS"
+- !private "P7RxSwift11SubjectType"
+- !private "P7RxSwift27SynchronizedUnsubscribeType"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Sp"
+- "SV"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps8_Pointer"
+- "CSo16_RXDelegateProxy"
+- "Ps11_Strideable"
+- !private "OSC22objc_AssociationPolicy"
+depends-dynamic-lookup:
+- !private "isKind"
+- !private "responds"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxSwift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RX.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXObjCRuntime.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/RxCocoaRuntime.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXKVOObserver.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXDelegateProxy.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxCocoaRuntime.build/module.modulemap"
+interface-hash: "b37490f94be4efb9c7d40382096219a9"

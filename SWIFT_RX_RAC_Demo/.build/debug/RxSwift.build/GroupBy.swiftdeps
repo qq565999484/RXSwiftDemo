@@ -1,0 +1,333 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["P7RxSwift14ObservableType", ""]
+- ["P7RxSwift14ObservableType", "groupBy"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Cancelable"
+- "Disposable"
+- !private "Disposables"
+- "Event"
+- !private "FloatLiteralType"
+- "GroupBy"
+- !private "GroupBySink"
+- "GroupedObservable"
+- !private "GroupedObservableImpl"
+- "Hashable"
+- !private "IntegerLiteralType"
+- "Observable"
+- "ObservableType"
+- !private "ObserverType"
+- !private "Producer"
+- "PublishSubject"
+- "RefCountDisposable"
+- !private "SingleAssignmentDisposable"
+- !private "Sink"
+- !private "StringLiteralType"
+- "Swift"
+depends-member:
+- !private ["Ps9AnyObject", "Disposables"]
+- !private ["Ps9AnyObject", "GroupBySink"]
+- !private ["Ps9AnyObject", "GroupedObservable"]
+- !private ["Ps9AnyObject", "GroupedObservableImpl"]
+- !private ["Ps9AnyObject", "Key"]
+- !private ["Ps9AnyObject", "PublishSubject"]
+- !private ["Ps9AnyObject", "RefCountDisposable"]
+- !private ["Ps9AnyObject", "SingleAssignmentDisposable"]
+- !private ["Ps9AnyObject", "_groupedSubjectTable"]
+- !private ["Ps9AnyObject", "_parent"]
+- !private ["Ps9AnyObject", "_refCount"]
+- !private ["Ps9AnyObject", "_refCountDisposable"]
+- !private ["Ps9AnyObject", "_selector"]
+- !private ["Ps9AnyObject", "_source"]
+- !private ["Ps9AnyObject", "_subject"]
+- !private ["Ps9AnyObject", "_subscription"]
+- !private ["Ps9AnyObject", "dispose"]
+- !private ["Ps9AnyObject", "error"]
+- !private ["Ps9AnyObject", "forwardOn"]
+- !private ["Ps9AnyObject", "forwardOnGroups"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "on"]
+- !private ["Ps9AnyObject", "onGroupEvent"]
+- !private ["Ps9AnyObject", "retain"]
+- !private ["Ps9AnyObject", "run"]
+- !private ["Ps9AnyObject", "setDisposable"]
+- !private ["Ps9AnyObject", "subscribe"]
+- !private ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "values"]
+- !private ["P7RxSwift10Cancelable", "dispose"]
+- !private ["P7RxSwift10Cancelable", "init"]
+- !private ["P7RxSwift10Cancelable", "on"]
+- !private ["P7RxSwift10Cancelable", "retain"]
+- !private ["P7RxSwift10Cancelable", "setDisposable"]
+- !private ["P7RxSwift10Cancelable", "subscribe"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Collection", "values"]
+- ["Ps28CustomDebugStringConvertible", "completed"]
+- ["Ps28CustomDebugStringConvertible", "error"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "next"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "values"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "values"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "values"]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Vs10Dictionary", "values"]
+- !private ["P7RxSwift10Disposable", "GroupedObservable"]
+- !private ["P7RxSwift10Disposable", "GroupedObservableImpl"]
+- !private ["P7RxSwift10Disposable", "Key"]
+- !private ["P7RxSwift10Disposable", "PublishSubject"]
+- !private ["P7RxSwift10Disposable", "RefCountDisposable"]
+- !private ["P7RxSwift10Disposable", "SingleAssignmentDisposable"]
+- !private ["P7RxSwift10Disposable", "_groupedSubjectTable"]
+- !private ["P7RxSwift10Disposable", "_parent"]
+- !private ["P7RxSwift10Disposable", "_refCountDisposable"]
+- !private ["P7RxSwift10Disposable", "_subscription"]
+- !private ["P7RxSwift10Disposable", "dispose"]
+- !private ["P7RxSwift10Disposable", "error"]
+- !private ["P7RxSwift10Disposable", "forwardOn"]
+- !private ["P7RxSwift10Disposable", "forwardOnGroups"]
+- !private ["P7RxSwift10Disposable", "init"]
+- !private ["P7RxSwift10Disposable", "on"]
+- !private ["P7RxSwift10Disposable", "onGroupEvent"]
+- !private ["P7RxSwift10Disposable", "retain"]
+- !private ["P7RxSwift10Disposable", "run"]
+- !private ["P7RxSwift10Disposable", "setDisposable"]
+- !private ["P7RxSwift10Disposable", "subscribe"]
+- !private ["P7RxSwift10Disposable", ""]
+- !private ["V7RxSwift11Disposables", "create"]
+- !private ["C7RxSwift11DisposeBase", "dispose"]
+- !private ["C7RxSwift11DisposeBase", "init"]
+- !private ["C7RxSwift11DisposeBase", "retain"]
+- !private ["C7RxSwift11DisposeBase", "setDisposable"]
+- ["O7RxSwift5Event", "completed"]
+- ["O7RxSwift5Event", "error"]
+- ["O7RxSwift5Event", "next"]
+- ["P7RxSwift16EventConvertible", "completed"]
+- ["P7RxSwift16EventConvertible", "error"]
+- ["P7RxSwift16EventConvertible", "next"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "values"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["V7RxSwift17GroupedObservable", "init"]
+- ["C7RxSwift10Observable", "Cancelable"]
+- ["C7RxSwift10Observable", "Disposable"]
+- !private ["C7RxSwift10Observable", "Disposables"]
+- !private ["C7RxSwift10Observable", "E"]
+- ["C7RxSwift10Observable", "Element"]
+- !private ["C7RxSwift10Observable", "GroupBySink"]
+- !private ["C7RxSwift10Observable", "GroupedObservable"]
+- ["C7RxSwift10Observable", "Key"]
+- ["C7RxSwift10Observable", "KeySelector"]
+- ["C7RxSwift10Observable", "Observable"]
+- !private ["C7RxSwift10Observable", "ObserverType"]
+- ["C7RxSwift10Observable", "PublishSubject"]
+- ["C7RxSwift10Observable", "RefCountDisposable"]
+- !private ["C7RxSwift10Observable", "_refCount"]
+- !private ["C7RxSwift10Observable", "_selector"]
+- !private ["C7RxSwift10Observable", "_source"]
+- !private ["C7RxSwift10Observable", "_subject"]
+- !private ["C7RxSwift10Observable", "deinit"]
+- !private ["C7RxSwift10Observable", "init"]
+- !private ["C7RxSwift10Observable", "on"]
+- !private ["C7RxSwift10Observable", "run"]
+- !private ["C7RxSwift10Observable", "subscribe"]
+- !private ["C7RxSwift10Observable", ""]
+- !private ["P7RxSwift25ObservableConvertibleType", "Disposables"]
+- ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "GroupBy"]
+- !private ["P7RxSwift25ObservableConvertibleType", "GroupBySink"]
+- ["P7RxSwift25ObservableConvertibleType", "GroupedObservable"]
+- ["P7RxSwift25ObservableConvertibleType", "Hashable"]
+- ["P7RxSwift25ObservableConvertibleType", "Observable"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_refCount"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_selector"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_source"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_subject"]
+- !private ["P7RxSwift25ObservableConvertibleType", "asObservable"]
+- !private ["P7RxSwift25ObservableConvertibleType", "init"]
+- !private ["P7RxSwift25ObservableConvertibleType", "on"]
+- !private ["P7RxSwift25ObservableConvertibleType", "subscribe"]
+- !private ["P7RxSwift25ObservableConvertibleType", ""]
+- !private ["P7RxSwift14ObservableType", "Disposables"]
+- ["P7RxSwift14ObservableType", "E"]
+- !private ["P7RxSwift14ObservableType", "GroupBy"]
+- !private ["P7RxSwift14ObservableType", "GroupBySink"]
+- ["P7RxSwift14ObservableType", "GroupedObservable"]
+- ["P7RxSwift14ObservableType", "Hashable"]
+- ["P7RxSwift14ObservableType", "Observable"]
+- !private ["P7RxSwift14ObservableType", "_refCount"]
+- !private ["P7RxSwift14ObservableType", "_selector"]
+- !private ["P7RxSwift14ObservableType", "_source"]
+- !private ["P7RxSwift14ObservableType", "_subject"]
+- !private ["P7RxSwift14ObservableType", "asObservable"]
+- ["P7RxSwift14ObservableType", "groupBy"]
+- !private ["P7RxSwift14ObservableType", "init"]
+- !private ["P7RxSwift14ObservableType", "on"]
+- !private ["P7RxSwift14ObservableType", "subscribe"]
+- !private ["P7RxSwift14ObservableType", ""]
+- ["P7RxSwift12ObserverType", "E"]
+- !private ["P7RxSwift12ObserverType", "GroupedObservable"]
+- !private ["P7RxSwift12ObserverType", "GroupedObservableImpl"]
+- !private ["P7RxSwift12ObserverType", "Key"]
+- !private ["P7RxSwift12ObserverType", "PublishSubject"]
+- !private ["P7RxSwift12ObserverType", "RefCountDisposable"]
+- !private ["P7RxSwift12ObserverType", "SingleAssignmentDisposable"]
+- !private ["P7RxSwift12ObserverType", "_groupedSubjectTable"]
+- !private ["P7RxSwift12ObserverType", "_parent"]
+- !private ["P7RxSwift12ObserverType", "_refCountDisposable"]
+- !private ["P7RxSwift12ObserverType", "_subscription"]
+- !private ["P7RxSwift12ObserverType", "dispose"]
+- !private ["P7RxSwift12ObserverType", "error"]
+- !private ["P7RxSwift12ObserverType", "forwardOn"]
+- !private ["P7RxSwift12ObserverType", "forwardOnGroups"]
+- !private ["P7RxSwift12ObserverType", "init"]
+- !private ["P7RxSwift12ObserverType", "on"]
+- !private ["P7RxSwift12ObserverType", "onGroupEvent"]
+- !private ["P7RxSwift12ObserverType", "run"]
+- !private ["P7RxSwift12ObserverType", "subscribe"]
+- !private ["P7RxSwift12ObserverType", ""]
+- ["C7RxSwift8Producer", "Cancelable"]
+- ["C7RxSwift8Producer", "Disposable"]
+- ["C7RxSwift8Producer", "Element"]
+- !private ["C7RxSwift8Producer", "GroupBySink"]
+- !private ["C7RxSwift8Producer", "GroupedObservable"]
+- ["C7RxSwift8Producer", "Key"]
+- ["C7RxSwift8Producer", "KeySelector"]
+- ["C7RxSwift8Producer", "Observable"]
+- !private ["C7RxSwift8Producer", "ObserverType"]
+- !private ["C7RxSwift8Producer", "_selector"]
+- !private ["C7RxSwift8Producer", "_source"]
+- !private ["C7RxSwift8Producer", "init"]
+- !private ["C7RxSwift8Producer", "run"]
+- !private ["C7RxSwift8Producer", ""]
+- !private ["C7RxSwift14PublishSubject", "deinit"]
+- !private ["C7RxSwift14PublishSubject", "init"]
+- !private ["C7RxSwift14PublishSubject", "on"]
+- !private ["C7RxSwift14PublishSubject", "subscribe"]
+- !private ["C7RxSwift18RefCountDisposable", "deinit"]
+- !private ["C7RxSwift18RefCountDisposable", "init"]
+- !private ["C7RxSwift18RefCountDisposable", "retain"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps8Sequence", "values"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "deinit"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "dispose"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "init"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "setDisposable"]
+- ["C7RxSwift4Sink", "Cancelable"]
+- ["C7RxSwift4Sink", "Disposable"]
+- !private ["C7RxSwift4Sink", "E"]
+- ["C7RxSwift4Sink", "Element"]
+- ["C7RxSwift4Sink", "Event"]
+- ["C7RxSwift4Sink", "GroupBy"]
+- !private ["C7RxSwift4Sink", "GroupedObservable"]
+- !private ["C7RxSwift4Sink", "GroupedObservableImpl"]
+- ["C7RxSwift4Sink", "Key"]
+- ["C7RxSwift4Sink", "O"]
+- ["C7RxSwift4Sink", "Parent"]
+- !private ["C7RxSwift4Sink", "PublishSubject"]
+- !private ["C7RxSwift4Sink", "RefCountDisposable"]
+- !private ["C7RxSwift4Sink", "SingleAssignmentDisposable"]
+- ["C7RxSwift4Sink", "Swift"]
+- !private ["C7RxSwift4Sink", "_groupedSubjectTable"]
+- !private ["C7RxSwift4Sink", "_parent"]
+- !private ["C7RxSwift4Sink", "_refCountDisposable"]
+- !private ["C7RxSwift4Sink", "_subscription"]
+- !private ["C7RxSwift4Sink", "dispose"]
+- !private ["C7RxSwift4Sink", "error"]
+- !private ["C7RxSwift4Sink", "forwardOn"]
+- !private ["C7RxSwift4Sink", "forwardOnGroups"]
+- !private ["C7RxSwift4Sink", "init"]
+- !private ["C7RxSwift4Sink", "on"]
+- !private ["C7RxSwift4Sink", "onGroupEvent"]
+- !private ["C7RxSwift4Sink", "run"]
+- !private ["C7RxSwift4Sink", ""]
+- !private ["Vs12StaticString", "init"]
+- !private ["P7RxSwift11SubjectType", "init"]
+- !private ["P7RxSwift11SubjectType", "on"]
+- !private ["P7RxSwift11SubjectType", "subscribe"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "init"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "on"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "subscribe"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps10_Indexable", "values"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps14_IndexableBase", "values"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "values"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Ps7CVarArg"
+- !private "P7RxSwift10Cancelable"
+- !private "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "P7RxSwift10Disposable"
+- !private "V7RxSwift11Disposables"
+- !private "C7RxSwift11DisposeBase"
+- "O7RxSwift5Event"
+- "P7RxSwift16EventConvertible"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "V7RxSwift17GroupedObservable"
+- "C7RxSwift10Observable"
+- "P7RxSwift25ObservableConvertibleType"
+- "P7RxSwift14ObservableType"
+- "P7RxSwift12ObserverType"
+- "C7RxSwift8Producer"
+- !private "C7RxSwift14PublishSubject"
+- !private "C7RxSwift18RefCountDisposable"
+- !private "Ps8Sequence"
+- !private "C7RxSwift26SingleAssignmentDisposable"
+- "C7RxSwift4Sink"
+- !private "Vs12StaticString"
+- !private "P7RxSwift11SubjectType"
+- !private "P7RxSwift27SynchronizedUnsubscribeType"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxCocoaRuntime.build/module.modulemap"
+interface-hash: "7b29170bd3fe2094f2168d44dac2a42a"

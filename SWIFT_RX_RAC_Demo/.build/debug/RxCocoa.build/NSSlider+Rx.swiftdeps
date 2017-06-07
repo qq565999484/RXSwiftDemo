@@ -1,0 +1,125 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["V7RxSwift8Reactive", ""]
+- ["V7RxSwift8Reactive", "value"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AssignmentPrecedence"
+- "ControlProperty"
+- "Double"
+- !private "NSControl"
+- "NSSlider"
+- "Reactive"
+depends-member:
+- !private ["Ps9AnyObject", "doubleValue"]
+- !private ["Ps9AnyObject", "rx"]
+- !private ["Ps7CVarArg", "doubleValue"]
+- !private ["Ps7CVarArg", "rx"]
+- !private ["Ps28CustomDebugStringConvertible", "doubleValue"]
+- !private ["Ps28CustomDebugStringConvertible", "rx"]
+- !private ["Ps23CustomStringConvertible", "doubleValue"]
+- !private ["Ps23CustomStringConvertible", "rx"]
+- !private ["Ps9Equatable", "doubleValue"]
+- !private ["Ps9Equatable", "rx"]
+- !private ["Ps8Hashable", "doubleValue"]
+- !private ["Ps8Hashable", "rx"]
+- !private ["PSo15NSAccessibility", "doubleValue"]
+- !private ["PSo15NSAccessibility", "rx"]
+- !private ["PSo30NSAccessibilityElementProtocol", "doubleValue"]
+- !private ["PSo30NSAccessibilityElementProtocol", "rx"]
+- !private ["PSo21NSAccessibilitySlider", "doubleValue"]
+- !private ["PSo29NSAnimatablePropertyContainer", "doubleValue"]
+- !private ["PSo29NSAnimatablePropertyContainer", "rx"]
+- !private ["PSo25NSAppearanceCustomization", "doubleValue"]
+- !private ["PSo25NSAppearanceCustomization", "rx"]
+- !private ["PSo8NSCoding", "doubleValue"]
+- !private ["PSo8NSCoding", "rx"]
+- !private ["CSo9NSControl", "doubleValue"]
+- !private ["CSo9NSControl", "rx"]
+- !private ["PSo21NSDraggingDestination", "doubleValue"]
+- !private ["PSo21NSDraggingDestination", "rx"]
+- !private ["CSo8NSObject", "doubleValue"]
+- !private ["CSo8NSObject", "rx"]
+- !private ["PSo16NSObjectProtocol", "doubleValue"]
+- !private ["PSo16NSObjectProtocol", "rx"]
+- !private ["CSo11NSResponder", "doubleValue"]
+- !private ["CSo11NSResponder", "rx"]
+- !private ["CSo8NSSlider", "doubleValue"]
+- !private ["PSo18NSTouchBarProvider", "doubleValue"]
+- !private ["PSo18NSTouchBarProvider", "rx"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "doubleValue"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "rx"]
+- !private ["CSo6NSView", "doubleValue"]
+- !private ["CSo6NSView", "rx"]
+- ["V7RxSwift8Reactive", "ControlProperty"]
+- ["V7RxSwift8Reactive", "Double"]
+- !private ["V7RxSwift8Reactive", "NSControl"]
+- ["V7RxSwift8Reactive", "NSSlider"]
+- !private ["V7RxSwift8Reactive", "base"]
+- ["V7RxSwift8Reactive", "value"]
+- !private ["P7RxSwift18ReactiveCompatible", "doubleValue"]
+- !private ["P7RxSwift18ReactiveCompatible", "rx"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "doubleValue"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "rx"]
+- !private ["Ps9_Hashable", "doubleValue"]
+- !private ["Ps9_Hashable", "rx"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Ps7CVarArg"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "PSo15NSAccessibility"
+- !private "PSo30NSAccessibilityElementProtocol"
+- !private "PSo21NSAccessibilitySlider"
+- !private "PSo29NSAnimatablePropertyContainer"
+- !private "PSo25NSAppearanceCustomization"
+- !private "PSo8NSCoding"
+- !private "CSo9NSControl"
+- !private "PSo21NSDraggingDestination"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo11NSResponder"
+- !private "CSo8NSSlider"
+- !private "PSo18NSTouchBarProvider"
+- !private "PSo33NSUserInterfaceItemIdentification"
+- !private "CSo6NSView"
+- "V7RxSwift8Reactive"
+- !private "P7RxSwift18ReactiveCompatible"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxSwift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RX.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXObjCRuntime.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/RxCocoaRuntime.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXKVOObserver.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxCocoaRuntime/include/_RXDelegateProxy.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxCocoaRuntime.build/module.modulemap"
+interface-hash: "f4f094ce2f8057c40687e50fabb21bfc"

@@ -1,0 +1,26 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C17SWIFT_RX_RAC_Demo14ViewController"
+provides-member:
+- ["C17SWIFT_RX_RAC_Demo14ViewController", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "UIViewController"
+- "ViewController"
+depends-member:
+- ["Ps9AnyObject", ""]
+- ["C17SWIFT_RX_RAC_Demo14ViewController", "deinit"]
+- ["C17SWIFT_RX_RAC_Demo14ViewController", "didReceiveMemoryWarning"]
+- ["C17SWIFT_RX_RAC_Demo14ViewController", "init"]
+- ["C17SWIFT_RX_RAC_Demo14ViewController", "viewDidLoad"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C17SWIFT_RX_RAC_Demo14ViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxCocoaRuntime.build/module.modulemap"
+interface-hash: "2273e0b6560749631899e82af2412a52"

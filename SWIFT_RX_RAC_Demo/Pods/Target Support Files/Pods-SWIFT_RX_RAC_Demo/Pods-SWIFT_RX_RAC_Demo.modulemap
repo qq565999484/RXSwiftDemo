@@ -1,0 +1,6 @@
+framework module Pods_SWIFT_RX_RAC_Demo {
+  umbrella header "Pods-SWIFT_RX_RAC_Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,78 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxTimeInterval"
+- "RxTime"
+- "SchedulerType"
+provides-nominal:
+- "P7RxSwift13SchedulerType"
+provides-member:
+- ["P7RxSwift13SchedulerType", ""]
+- ["P7RxSwift13SchedulerType", "schedulePeriodic"]
+- ["P7RxSwift13SchedulerType", "scheduleRecursive"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyRecursiveScheduler"
+- "Date"
+- "Disposable"
+- !private "Disposables"
+- "ImmediateSchedulerType"
+- "RxTime"
+- "RxTimeInterval"
+- !private "SchedulePeriodicRecursive"
+- "SchedulerType"
+- "TimeInterval"
+depends-member:
+- !private ["Ps9AnyObject", "dispose"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "schedule"]
+- !private ["Ps9AnyObject", "start"]
+- !private ["C7RxSwift21AnyRecursiveScheduler", "dispose"]
+- !private ["C7RxSwift21AnyRecursiveScheduler", "init"]
+- !private ["C7RxSwift21AnyRecursiveScheduler", "schedule"]
+- !private ["V7RxSwift11Disposables", "create"]
+- ["P7RxSwift22ImmediateSchedulerType", "AnyRecursiveScheduler"]
+- ["P7RxSwift22ImmediateSchedulerType", "Disposable"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "Disposables"]
+- ["P7RxSwift22ImmediateSchedulerType", "RxTime"]
+- ["P7RxSwift22ImmediateSchedulerType", "RxTimeInterval"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "SchedulePeriodicRecursive"]
+- ["P7RxSwift22ImmediateSchedulerType", "now"]
+- ["P7RxSwift22ImmediateSchedulerType", "schedulePeriodic"]
+- ["P7RxSwift22ImmediateSchedulerType", "scheduleRelative"]
+- ["P7RxSwift22ImmediateSchedulerType", ""]
+- !private ["C7RxSwift25SchedulePeriodicRecursive", "init"]
+- !private ["C7RxSwift25SchedulePeriodicRecursive", "start"]
+- ["P7RxSwift13SchedulerType", "AnyRecursiveScheduler"]
+- ["P7RxSwift13SchedulerType", "Disposable"]
+- !private ["P7RxSwift13SchedulerType", "Disposables"]
+- ["P7RxSwift13SchedulerType", "RxTime"]
+- ["P7RxSwift13SchedulerType", "RxTimeInterval"]
+- !private ["P7RxSwift13SchedulerType", "SchedulePeriodicRecursive"]
+- ["P7RxSwift13SchedulerType", "now"]
+- ["P7RxSwift13SchedulerType", "schedulePeriodic"]
+- ["P7RxSwift13SchedulerType", "scheduleRecursive"]
+- ["P7RxSwift13SchedulerType", "scheduleRelative"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "C7RxSwift21AnyRecursiveScheduler"
+- !private "V7RxSwift11Disposables"
+- "P7RxSwift22ImmediateSchedulerType"
+- !private "C7RxSwift25SchedulePeriodicRecursive"
+- "P7RxSwift13SchedulerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxCocoaRuntime.build/module.modulemap"
+interface-hash: "e38979b856e476a65264953c67d59678"

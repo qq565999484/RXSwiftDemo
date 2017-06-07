@@ -1,0 +1,6 @@
+framework module RxSwift_SwiftyJSON {
+  umbrella header "RxSwift-SwiftyJSON-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,171 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SchedulePeriodicRecursiveCommand"
+- "SchedulePeriodicRecursive"
+- "=="
+provides-nominal:
+- "O7RxSwift32SchedulePeriodicRecursiveCommand"
+- "C7RxSwift25SchedulePeriodicRecursive"
+provides-member:
+- ["O7RxSwift32SchedulePeriodicRecursiveCommand", ""]
+- ["C7RxSwift25SchedulePeriodicRecursive", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private ">"
+- "AnyRecursiveScheduler"
+- "AssignmentPrecedence"
+- !private "AtomicDecrement"
+- !private "AtomicIncrement"
+- "AtomicInt"
+- "Disposable"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "RxTimeInterval"
+- "SchedulePeriodicRecursive"
+- "SchedulePeriodicRecursiveCommand"
+- "SchedulerType"
+- "Void"
+depends-member:
+- !private ["Ps9AnyObject", "AtomicDecrement"]
+- !private ["Ps9AnyObject", "AtomicIncrement"]
+- !private ["Ps9AnyObject", "SchedulePeriodicRecursiveCommand"]
+- !private ["Ps9AnyObject", "_action"]
+- !private ["Ps9AnyObject", "_pendingTickCount"]
+- !private ["Ps9AnyObject", "_period"]
+- !private ["Ps9AnyObject", "_scheduler"]
+- !private ["Ps9AnyObject", "_startAfter"]
+- !private ["Ps9AnyObject", "_state"]
+- !private ["Ps9AnyObject", "schedule"]
+- !private ["Ps9AnyObject", "tick"]
+- ["Ps9AnyObject", ""]
+- !private ["C7RxSwift21AnyRecursiveScheduler", "schedule"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "dispatchStart"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "tick"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "dispatchStart"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "tick"]
+- ["Ps8Hashable", ""]
+- !private ["P7RxSwift22ImmediateSchedulerType", "scheduleRecursive"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["C7RxSwift25SchedulePeriodicRecursive", "AnyRecursiveScheduler"]
+- !private ["C7RxSwift25SchedulePeriodicRecursive", "AtomicDecrement"]
+- !private ["C7RxSwift25SchedulePeriodicRecursive", "AtomicIncrement"]
+- ["C7RxSwift25SchedulePeriodicRecursive", "AtomicInt"]
+- ["C7RxSwift25SchedulePeriodicRecursive", "Disposable"]
+- ["C7RxSwift25SchedulePeriodicRecursive", "RecursiveAction"]
+- ["C7RxSwift25SchedulePeriodicRecursive", "RecursiveScheduler"]
+- ["C7RxSwift25SchedulePeriodicRecursive", "RxTimeInterval"]
+- ["C7RxSwift25SchedulePeriodicRecursive", "SchedulePeriodicRecursiveCommand"]
+- ["C7RxSwift25SchedulePeriodicRecursive", "SchedulerType"]
+- ["C7RxSwift25SchedulePeriodicRecursive", "State"]
+- ["C7RxSwift25SchedulePeriodicRecursive", "Void"]
+- !private ["C7RxSwift25SchedulePeriodicRecursive", "_action"]
+- !private ["C7RxSwift25SchedulePeriodicRecursive", "_pendingTickCount"]
+- !private ["C7RxSwift25SchedulePeriodicRecursive", "_period"]
+- !private ["C7RxSwift25SchedulePeriodicRecursive", "_scheduler"]
+- !private ["C7RxSwift25SchedulePeriodicRecursive", "_startAfter"]
+- !private ["C7RxSwift25SchedulePeriodicRecursive", "_state"]
+- ["C7RxSwift25SchedulePeriodicRecursive", "deinit"]
+- ["C7RxSwift25SchedulePeriodicRecursive", "init"]
+- ["C7RxSwift25SchedulePeriodicRecursive", "start"]
+- ["C7RxSwift25SchedulePeriodicRecursive", "tick"]
+- ["O7RxSwift32SchedulePeriodicRecursiveCommand", "=="]
+- ["O7RxSwift32SchedulePeriodicRecursiveCommand", "_toAnyHashable"]
+- ["O7RxSwift32SchedulePeriodicRecursiveCommand", "deinit"]
+- ["O7RxSwift32SchedulePeriodicRecursiveCommand", "dispatchStart"]
+- ["O7RxSwift32SchedulePeriodicRecursiveCommand", "hashValue"]
+- ["O7RxSwift32SchedulePeriodicRecursiveCommand", "tick"]
+- !private ["P7RxSwift13SchedulerType", "scheduleRecursive"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "dispatchStart"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "tick"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C7RxSwift21AnyRecursiveScheduler"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- !private "P7RxSwift22ImmediateSchedulerType"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "C7RxSwift25SchedulePeriodicRecursive"
+- "O7RxSwift32SchedulePeriodicRecursiveCommand"
+- !private "P7RxSwift13SchedulerType"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxCocoaRuntime.build/module.modulemap"
+interface-hash: "11b6aaa931a4fd08df9f4e3b11577bea"

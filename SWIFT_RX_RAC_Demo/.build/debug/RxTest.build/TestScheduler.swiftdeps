@@ -1,0 +1,291 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TestScheduler"
+provides-nominal:
+- "C6RxTest13TestScheduler"
+- "VC6RxTest13TestScheduler8Defaults"
+provides-member:
+- ["C6RxTest13TestScheduler", ""]
+- ["VC6RxTest13TestScheduler8Defaults", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "<="
+- !private "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "ColdObservable"
+- !private "Disposable"
+- !private "Disposables"
+- "Double"
+- "Event"
+- "FloatLiteralType"
+- !private "HotObservable"
+- "IntegerLiteralType"
+- "Observable"
+- "Recorded"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "TestScheduler"
+- "TestSchedulerVirtualTimeConverter"
+- "TestTime"
+- "TestableObservable"
+- "TestableObserver"
+- "VirtualTimeScheduler"
+- "Void"
+depends-member:
+- !private ["Ps9AnyObject", "ColdObservable"]
+- !private ["Ps9AnyObject", "Defaults"]
+- !private ["Ps9AnyObject", "Disposables"]
+- !private ["Ps9AnyObject", "HotObservable"]
+- !private ["Ps9AnyObject", "TestSchedulerVirtualTimeConverter"]
+- !private ["Ps9AnyObject", "TestableObserver"]
+- !private ["Ps9AnyObject", "_simulateProcessingDelay"]
+- !private ["Ps9AnyObject", "clock"]
+- !private ["Ps9AnyObject", "createObserver"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "scheduleAbsoluteVirtual"]
+- !private ["Ps9AnyObject", "start"]
+- !private ["Ps9AnyObject", "subscribe"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["C6RxTest14ColdObservable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "ColdObservable"]
+- !private ["Ps28CustomDebugStringConvertible", "Defaults"]
+- !private ["Ps28CustomDebugStringConvertible", "Disposables"]
+- !private ["Ps28CustomDebugStringConvertible", "HotObservable"]
+- !private ["Ps28CustomDebugStringConvertible", "TestSchedulerVirtualTimeConverter"]
+- !private ["Ps28CustomDebugStringConvertible", "TestableObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "_simulateProcessingDelay"]
+- !private ["Ps28CustomDebugStringConvertible", "clock"]
+- !private ["Ps28CustomDebugStringConvertible", "createObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "scheduleAbsoluteVirtual"]
+- !private ["Ps28CustomDebugStringConvertible", "start"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["VC6RxTest13TestScheduler8Defaults", "created"]
+- ["VC6RxTest13TestScheduler8Defaults", "disposed"]
+- ["VC6RxTest13TestScheduler8Defaults", "init"]
+- ["VC6RxTest13TestScheduler8Defaults", "subscribed"]
+- !private ["P7RxSwift10Disposable", "dispose"]
+- !private ["V7RxSwift11Disposables", "create"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["C6RxTest13HotObservable", "init"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "ColdObservable"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "Defaults"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "Disposables"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "HotObservable"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "TestSchedulerVirtualTimeConverter"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "TestableObserver"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "_simulateProcessingDelay"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "clock"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "createObserver"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "init"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "scheduleAbsoluteVirtual"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "start"]
+- ["P7RxSwift22ImmediateSchedulerType", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["C7RxSwift10Observable", "subscribe"]
+- !private ["P7RxSwift25ObservableConvertibleType", "init"]
+- !private ["P7RxSwift25ObservableConvertibleType", "subscribe"]
+- !private ["P7RxSwift14ObservableType", "init"]
+- !private ["P7RxSwift14ObservableType", "subscribe"]
+- !private ["P7RxSwift12ObserverType", "init"]
+- !private ["P7RxSwift13SchedulerType", "ColdObservable"]
+- !private ["P7RxSwift13SchedulerType", "Defaults"]
+- !private ["P7RxSwift13SchedulerType", "Disposables"]
+- !private ["P7RxSwift13SchedulerType", "HotObservable"]
+- !private ["P7RxSwift13SchedulerType", "TestSchedulerVirtualTimeConverter"]
+- !private ["P7RxSwift13SchedulerType", "TestableObserver"]
+- !private ["P7RxSwift13SchedulerType", "_simulateProcessingDelay"]
+- !private ["P7RxSwift13SchedulerType", "clock"]
+- !private ["P7RxSwift13SchedulerType", "createObserver"]
+- !private ["P7RxSwift13SchedulerType", "init"]
+- !private ["P7RxSwift13SchedulerType", "scheduleAbsoluteVirtual"]
+- !private ["P7RxSwift13SchedulerType", "start"]
+- ["P7RxSwift13SchedulerType", ""]
+- !private ["Vs12StaticString", "init"]
+- !private ["C6RxTest13TestScheduler", "AnyObject"]
+- ["C6RxTest13TestScheduler", "Bool"]
+- !private ["C6RxTest13TestScheduler", "ColdObservable"]
+- ["C6RxTest13TestScheduler", "Defaults"]
+- !private ["C6RxTest13TestScheduler", "Disposable"]
+- !private ["C6RxTest13TestScheduler", "Disposables"]
+- ["C6RxTest13TestScheduler", "Double"]
+- ["C6RxTest13TestScheduler", "Event"]
+- !private ["C6RxTest13TestScheduler", "HotObservable"]
+- ["C6RxTest13TestScheduler", "Observable"]
+- ["C6RxTest13TestScheduler", "Recorded"]
+- !private ["C6RxTest13TestScheduler", "TestScheduler"]
+- !private ["C6RxTest13TestScheduler", "TestSchedulerVirtualTimeConverter"]
+- ["C6RxTest13TestScheduler", "TestTime"]
+- ["C6RxTest13TestScheduler", "TestableObservable"]
+- ["C6RxTest13TestScheduler", "TestableObserver"]
+- ["C6RxTest13TestScheduler", "VirtualTime"]
+- ["C6RxTest13TestScheduler", "Void"]
+- !private ["C6RxTest13TestScheduler", "_simulateProcessingDelay"]
+- ["C6RxTest13TestScheduler", "adjustScheduledTime"]
+- !private ["C6RxTest13TestScheduler", "clock"]
+- ["C6RxTest13TestScheduler", "createColdObservable"]
+- ["C6RxTest13TestScheduler", "createHotObservable"]
+- ["C6RxTest13TestScheduler", "createObserver"]
+- ["C6RxTest13TestScheduler", "deinit"]
+- ["C6RxTest13TestScheduler", "init"]
+- !private ["C6RxTest13TestScheduler", "scheduleAbsoluteVirtual"]
+- ["C6RxTest13TestScheduler", "scheduleAt"]
+- ["C6RxTest13TestScheduler", "start"]
+- ["V6RxTest33TestSchedulerVirtualTimeConverter", "deinit"]
+- !private ["V6RxTest33TestSchedulerVirtualTimeConverter", "init"]
+- !private ["C6RxTest18TestableObservable", "init"]
+- !private ["C6RxTest16TestableObserver", "deinit"]
+- !private ["C6RxTest16TestableObserver", "init"]
+- !private ["P7RxSwift24VirtualTimeConverterType", "init"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "AnyObject"]
+- ["C7RxSwift20VirtualTimeScheduler", "Bool"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "ColdObservable"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "Defaults"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "Disposable"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "Disposables"]
+- ["C7RxSwift20VirtualTimeScheduler", "Double"]
+- ["C7RxSwift20VirtualTimeScheduler", "Event"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "HotObservable"]
+- ["C7RxSwift20VirtualTimeScheduler", "Observable"]
+- ["C7RxSwift20VirtualTimeScheduler", "Recorded"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "TestScheduler"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "TestSchedulerVirtualTimeConverter"]
+- ["C7RxSwift20VirtualTimeScheduler", "TestTime"]
+- ["C7RxSwift20VirtualTimeScheduler", "TestableObservable"]
+- ["C7RxSwift20VirtualTimeScheduler", "TestableObserver"]
+- ["C7RxSwift20VirtualTimeScheduler", "VirtualTime"]
+- ["C7RxSwift20VirtualTimeScheduler", "Void"]
+- ["C7RxSwift20VirtualTimeScheduler", "_simulateProcessingDelay"]
+- ["C7RxSwift20VirtualTimeScheduler", "adjustScheduledTime"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "clock"]
+- ["C7RxSwift20VirtualTimeScheduler", "createColdObservable"]
+- ["C7RxSwift20VirtualTimeScheduler", "createHotObservable"]
+- ["C7RxSwift20VirtualTimeScheduler", "createObserver"]
+- ["C7RxSwift20VirtualTimeScheduler", "init"]
+- !private ["C7RxSwift20VirtualTimeScheduler", "scheduleAbsoluteVirtual"]
+- ["C7RxSwift20VirtualTimeScheduler", "scheduleAt"]
+- ["C7RxSwift20VirtualTimeScheduler", "start"]
+- ["C7RxSwift20VirtualTimeScheduler", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "C6RxTest14ColdObservable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "VC6RxTest13TestScheduler8Defaults"
+- !private "P7RxSwift10Disposable"
+- !private "V7RxSwift11Disposables"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "C6RxTest13HotObservable"
+- "P7RxSwift22ImmediateSchedulerType"
+- !private "Ps25LosslessStringConvertible"
+- !private "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- !private "P7RxSwift12ObserverType"
+- "P7RxSwift13SchedulerType"
+- !private "Vs12StaticString"
+- "C6RxTest13TestScheduler"
+- "V6RxTest33TestSchedulerVirtualTimeConverter"
+- !private "C6RxTest18TestableObservable"
+- !private "C6RxTest16TestableObserver"
+- !private "P7RxSwift24VirtualTimeConverterType"
+- "C7RxSwift20VirtualTimeScheduler"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XCTest.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxSwift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUISiriService.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTKVOExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSPredicateExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTDarwinNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTWaiter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxCocoaRuntime.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+interface-hash: "21761694c91b5df1a9e6b758ac7600df"

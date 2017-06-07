@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/master.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxBlocking/BlockingObservable+Operators.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/BlockingObservable+Operators.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/BlockingObservable+Operators.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/BlockingObservable+Operators~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/BlockingObservable+Operators.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxBlocking/BlockingObservable.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/BlockingObservable.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/BlockingObservable.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/BlockingObservable~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/BlockingObservable.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxBlocking/ObservableConvertibleType+Blocking.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/ObservableConvertibleType+Blocking.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/ObservableConvertibleType+Blocking.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/ObservableConvertibleType+Blocking~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/ObservableConvertibleType+Blocking.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxBlocking/Platform.Darwin.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/Platform.Darwin.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/Platform.Darwin.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/Platform.Darwin~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/Platform.Darwin.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxBlocking/Platform.Linux.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/Platform.Linux.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/Platform.Linux.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/Platform.Linux~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/Platform.Linux.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxBlocking/RecursiveLock.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/RecursiveLock.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/RecursiveLock.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/RecursiveLock~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/RecursiveLock.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxBlocking/Resources.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/Resources.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/Resources.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/Resources~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/Resources.swiftdeps"
+  },
+  "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/checkouts/RxSwift.git--5214619868639177420/Sources/RxBlocking/RunLoopLock.swift": {
+    "dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/RunLoopLock.d",
+    "object": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/RunLoopLock.swift.o",
+    "swiftmodule": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/RunLoopLock~partial.swiftmodule",
+    "swift-dependencies": "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxBlocking.build/RunLoopLock.swiftdeps"
+  }
+}

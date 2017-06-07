@@ -1,0 +1,36 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C17SWIFT_RX_RAC_Demo11AppDelegate"
+provides-member:
+- ["C17SWIFT_RX_RAC_Demo11AppDelegate", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AppDelegate"
+- "Bool"
+- "UIApplication"
+- "UIApplicationDelegate"
+- "UIApplicationLaunchOptionsKey"
+- "UIResponder"
+- "UIWindow"
+depends-member:
+- ["Ps9AnyObject", "UIApplication"]
+- ["Ps9AnyObject", "UIApplicationLaunchOptionsKey"]
+- ["Ps9AnyObject", "UIWindow"]
+- ["Ps9AnyObject", ""]
+- ["C17SWIFT_RX_RAC_Demo11AppDelegate", "Bool"]
+- ["C17SWIFT_RX_RAC_Demo11AppDelegate", "UIApplication"]
+- ["C17SWIFT_RX_RAC_Demo11AppDelegate", "UIApplicationLaunchOptionsKey"]
+- ["C17SWIFT_RX_RAC_Demo11AppDelegate", "UIWindow"]
+- ["C17SWIFT_RX_RAC_Demo11AppDelegate", "deinit"]
+- ["C17SWIFT_RX_RAC_Demo11AppDelegate", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C17SWIFT_RX_RAC_Demo11AppDelegate"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxCocoaRuntime.build/module.modulemap"
+interface-hash: "b306772a10463f7c5fce689aa6452f8e"

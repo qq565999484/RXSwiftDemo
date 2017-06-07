@@ -1,0 +1,66 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["P7RxSwift21PrimitiveSequenceType", ""]
+- ["P7RxSwift21PrimitiveSequenceType", "zip"]
+- ["P7RxSwift21PrimitiveSequenceType", "zip"]
+- ["P7RxSwift21PrimitiveSequenceType", "zip"]
+- ["P7RxSwift21PrimitiveSequenceType", "zip"]
+- ["P7RxSwift21PrimitiveSequenceType", "zip"]
+- ["P7RxSwift21PrimitiveSequenceType", "zip"]
+- ["P7RxSwift21PrimitiveSequenceType", "zip"]
+- ["P7RxSwift21PrimitiveSequenceType", "zip"]
+- ["P7RxSwift21PrimitiveSequenceType", "zip"]
+- ["P7RxSwift21PrimitiveSequenceType", "zip"]
+- ["P7RxSwift21PrimitiveSequenceType", "zip"]
+- ["P7RxSwift21PrimitiveSequenceType", "zip"]
+- ["P7RxSwift21PrimitiveSequenceType", "zip"]
+- ["P7RxSwift21PrimitiveSequenceType", "zip"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Observable"
+- "PrimitiveSequence"
+- "PrimitiveSequenceType"
+depends-member:
+- !private ["Ps9AnyObject", "zip"]
+- !private ["C7RxSwift10Observable", "deinit"]
+- !private ["C7RxSwift10Observable", "zip"]
+- !private ["P7RxSwift25ObservableConvertibleType", "asObservable"]
+- !private ["P7RxSwift25ObservableConvertibleType", "init"]
+- !private ["P7RxSwift25ObservableConvertibleType", "zip"]
+- !private ["P7RxSwift14ObservableType", "zip"]
+- !private ["V7RxSwift17PrimitiveSequence", "asObservable"]
+- !private ["V7RxSwift17PrimitiveSequence", "deinit"]
+- !private ["V7RxSwift17PrimitiveSequence", "init"]
+- ["P7RxSwift21PrimitiveSequenceType", "ElementType"]
+- !private ["P7RxSwift21PrimitiveSequenceType", "Observable"]
+- ["P7RxSwift21PrimitiveSequenceType", "PrimitiveSequence"]
+- ["P7RxSwift21PrimitiveSequenceType", "TraitType"]
+- !private ["P7RxSwift21PrimitiveSequenceType", "asObservable"]
+- !private ["P7RxSwift21PrimitiveSequenceType", "init"]
+- ["P7RxSwift21PrimitiveSequenceType", "zip"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- !private "V7RxSwift17PrimitiveSequence"
+- "P7RxSwift21PrimitiveSequenceType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/chenyihang/Desktop/SWIFT_Learn/SWIFT_RX_RAC_Demo/.build/debug/RxCocoaRuntime.build/module.modulemap"
+interface-hash: "a315fd9d36530f23031603ded73cd22f"
