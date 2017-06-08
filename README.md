@@ -8,4 +8,7 @@
 ---
 [moya + RxSwift 进行网络请求](http://blog.csdn.net/Three_Zhang/article/details/61923164)
 
+[使用 RxSwift 进行响应式编程](https://news.realm.io/cn/news/altconf-scott-gardner-reactive-programming-with-rxswift/)
+[RX中文文档](https://github.com/qq565999484/RxSwift-CN)
+
 
