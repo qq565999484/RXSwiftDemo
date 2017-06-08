@@ -13,6 +13,8 @@
 		E971B7D31ED917BC00B02983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E971B7D11ED917BC00B02983 /* Main.storyboard */; };
 		E971B7D51ED917BC00B02983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E971B7D41ED917BC00B02983 /* Assets.xcassets */; };
 		E971B7D81ED917BC00B02983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E971B7D61ED917BC00B02983 /* LaunchScreen.storyboard */; };
+		E9764B921EE8FAF400BA5D78 /* RefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9764B911EE8FAF400BA5D78 /* RefreshViewController.swift */; };
+		E9764B941EE91A2F00BA5D78 /* RefreshViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9764B931EE91A2F00BA5D78 /* RefreshViewModel.swift */; };
 		E98341951EE7D3D800453823 /* ContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98341941EE7D3D800453823 /* ContainerViewModel.swift */; };
 		E98C4DA51EE7F2EC005EE8EB /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98C4DA41EE7F2EC005EE8EB /* CoreSpotlight.framework */; };
 		E99AEE751EE69ABE00DCFDE7 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99AEE741EE69ABE00DCFDE7 /* ViewController3.swift */; };
@@ -43,6 +45,8 @@
 		E971B7D41ED917BC00B02983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E971B7D71ED917BC00B02983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E971B7D91ED917BC00B02983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9764B911EE8FAF400BA5D78 /* RefreshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshViewController.swift; sourceTree = "<group>"; };
+		E9764B931EE91A2F00BA5D78 /* RefreshViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshViewModel.swift; sourceTree = "<group>"; };
 		E98341941EE7D3D800453823 /* ContainerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewModel.swift; sourceTree = "<group>"; };
 		E98C4DA41EE7F2EC005EE8EB /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
 		E99AEE741EE69ABE00DCFDE7 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
@@ -114,6 +118,7 @@
 		E971B7CC1ED917BC00B02983 /* SWIFT_RX_RAC_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				E9764B901EE8FAD000BA5D78 /* RefreshTableViewDemo */,
 				E9FABCD61EE6B04300E99A98 /* heros.plist */,
 				E971B7CD1ED917BC00B02983 /* AppDelegate.swift */,
 				E9F03F021ED928AB00CEF201 /* Package.swift */,
@@ -138,6 +143,15 @@
 				E971B7D91ED917BC00B02983 /* Info.plist */,
 			);
 			path = SWIFT_RX_RAC_Demo;
+			sourceTree = "<group>";
+		};
+		E9764B901EE8FAD000BA5D78 /* RefreshTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E9764B911EE8FAF400BA5D78 /* RefreshViewController.swift */,
+				E9764B931EE91A2F00BA5D78 /* RefreshViewModel.swift */,
+			);
+			path = RefreshTableViewDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +283,8 @@
 				E9FABCD91EE6B26300E99A98 /* Service.swift in Sources */,
 				E99AEE7F1EE6AB9200DCFDE7 /* RegisterViewController.swift in Sources */,
 				E99AEE851EE6ABEC00DCFDE7 /* ContainerViewController.swift in Sources */,
+				E9764B941EE91A2F00BA5D78 /* RefreshViewModel.swift in Sources */,
+				E9764B921EE8FAF400BA5D78 /* RefreshViewController.swift in Sources */,
 				E99AEE811EE6ABA100DCFDE7 /* LoginViewModel.swift in Sources */,
 				E9FABCDB1EE6B26E00E99A98 /* Hero.swift in Sources */,
 				E98341951EE7D3D800453823 /* ContainerViewModel.swift in Sources */,
